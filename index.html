@@ -5,8 +5,7 @@ layout: default
   <img src="/img/banner.png" />
 </section>
  
-<section class="content">
-  <p>
-  Lorem ipsum Purdue SIGGD
-  </p> 
-</section>
+{% for post in site.posts %}
+<hr>
+{{ post.content }}
+{% endfor %}
