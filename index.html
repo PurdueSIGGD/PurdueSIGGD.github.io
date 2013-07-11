@@ -7,7 +7,9 @@ layout: default
  
 {% for post in site.posts %}
 <hr>
-<h2 class="content">{{post.title}}</h2>
-<h4 class="content">{{post.date}}</h4>
+<a href="{{ post.url }}">
+	<h2 class="content">{{ post.title }}</h2>
+</a>
+<h4 class="content">{{ post.date | date: "%d %B %Y" }}</h4>
 {{ post.content }}
 {% endfor %}
