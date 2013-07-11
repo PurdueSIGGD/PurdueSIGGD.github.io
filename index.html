@@ -7,5 +7,7 @@ layout: default
  
 {% for post in site.posts %}
 <hr>
+<h2 class="content">{{post.title}}</h2>
+<h4 class="content">{{post.date}}</h4>
 {{ post.content }}
 {% endfor %}
