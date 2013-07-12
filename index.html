@@ -3,8 +3,8 @@ layout: default
 ---
 {% for post in site.posts %}
 <a href="{{ post.url }}">
-	<h2 class="content">{{ post.title }}</h2>
+	<h2>{{ post.title }}</h2>
 </a>
-<h4 class="content">{{ post.date | date: "%d %B %Y" }}</h4>
+<h4>{{ post.date | date: "%d %B %Y" }}</h4>
 {{ post.content }}
 {% endfor %}
