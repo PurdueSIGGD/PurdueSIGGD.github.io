@@ -10,7 +10,7 @@ body {
   border-width:1px 0;
   list-style:none;
   margin-top: -20px;
-
+  margin-bottom: 0;
   padding:0;
   text-align:center;
   background: black;
@@ -43,6 +43,8 @@ footer{
 .posts{
   width: 690px;
   float: left;
+  background: #EEE;
+  box-shadow: 3px 0px 7px #777;
 }
 .post{  /* all contents of a post*/
   padding: 0 20px;
