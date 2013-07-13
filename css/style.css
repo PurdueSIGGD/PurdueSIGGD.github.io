@@ -32,8 +32,12 @@ header {
   margin: 10px auto;
   background: #EEE;
 }
+.sidebar{
+
+}
 .posts{
-  width: 69%;
+  width: 690px;
+  float: left;
 }
 .post{  /* all contents of a post*/
 padding: 0 20px;
