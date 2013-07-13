@@ -29,6 +29,10 @@ header {
 }
 footer{
   clear: both;
+  font-size: 0.65em;
+  text-align: center;
+  color: white;
+  background: black;
 }
 #main {
   width: 960px;
@@ -70,10 +74,11 @@ a:hover {
 h1 {
   margin: 0;
 }
-
-footer {
-  font-size: 0.65em;
-  text-align: center;
-  color: white;
-  background: black;
+.archive{
+  background: #EEE;
+  padding: 10px;
+  list-style: none;
+}
+.archive h3{
+  margin-top: 0;
 }
