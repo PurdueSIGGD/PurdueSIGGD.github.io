@@ -77,8 +77,10 @@ h1 {
 .archive{
   background: #EEE;
   padding: 10px;
-  list-style: none;
 }
 .archive h3{
   margin-top: 0;
+}
+.archive ul{
+  list-style: none;
 }
