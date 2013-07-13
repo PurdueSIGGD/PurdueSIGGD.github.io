@@ -32,6 +32,9 @@ header {
   margin: 10px auto;
   background: #EEE;
 }
+.posts{
+  width: 69%;
+}
 .post{  /* all contents of a post*/
 padding: 0 20px;
 }

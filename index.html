@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="posts">
 {% for post in site.posts %}
 <div class="post">
 	<a href="{{ post.url }}">
@@ -9,4 +10,6 @@ layout: default
 	<h5>{{ post.date | date: "%d %B %Y" }}</h5>
 	{{ post.content }}
 </div>
+<hr>
 {% endfor %}
+</div>

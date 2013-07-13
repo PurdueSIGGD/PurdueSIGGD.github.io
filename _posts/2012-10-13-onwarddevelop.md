@@ -16,4 +16,5 @@ Our art team has been working hard on assets for the game. Here you can see Edwa
 We've been working on Version 3 of our level editor dubbed "TreeQuake", where we can edit our maps, events, and placement of actors all while being able to test and play the game! It's quite an improvement on our previous iterations and we're excited to watch it progress!  
 
 We're swiftly moving forward, and can't wait to update you on our progress in the future!  
+  
 -Evan
