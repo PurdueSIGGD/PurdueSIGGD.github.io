@@ -5,6 +5,6 @@ title: Physics Fun!
 ---
 Playing around with our level editor makes for some world-collapsing situations!!
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/o0o9QW2zpLw?rel=0" width="640"></iframe>
+<object width="640" height="360"><param name="movie" value="//www.youtube.com/v/o0o9QW2zpLw?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/o0o9QW2zpLw?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 -Ian
