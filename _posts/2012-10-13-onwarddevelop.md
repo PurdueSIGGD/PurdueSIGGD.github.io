@@ -3,7 +3,7 @@ layout: post_entry
 date: Oct 13, 2012
 title: Onward to Development!
 ---
-<img alt="Team Panorama" src="/img/2012-10-13-teampanorama.jpeg" style="width: 625px; height: 135px;">
+<img alt="Team Panorama" src="/img/2012-10-13-teampanorama.jpg" style="width: 625px; height: 135px;">
 
 It's already October, and things are moving forward quickly here at SIGGD. We've planned out our backlog, set our goals, and have started our sprints! After brushing up on the engine, level editor, and other necessary tools, all of our teams are already quickly moving into developing the game along with our new members.
 
