@@ -32,8 +32,8 @@ footer{
 }
 #main {
   width: 960px;
-  margin: 10px auto;
-  background: #EEE;
+  margin: 20px auto;
+  background: #7f7f7f;
 }
 .sidebar{
   float: right;
