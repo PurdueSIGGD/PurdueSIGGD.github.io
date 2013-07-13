@@ -32,6 +32,18 @@ header {
   margin: 10px auto;
   background: #EEE;
 }
+.post{  /* all contents of a post*/
+
+}
+.post h2{ /* title of post */
+
+}
+.post h4{ /* date of post */
+
+}
+.post p{ /* text of post */
+
+}
 a {
   color: #000;
   text-decoration: none;
