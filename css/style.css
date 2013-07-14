@@ -48,6 +48,7 @@ footer{
   width: 690px;
   float: left;
   box-shadow: 3px 0px 7px #777;
+  background: #EEE;
 }
 .post{  /* all contents of a post*/
   padding: 0 20px;
@@ -55,12 +56,13 @@ footer{
 }
 .post h2{ /* title of post */
   margin-bottom: 0;
+  margin-top: 0;
 }
 .post h5{ /* date of post */
   margin: 0;
 }
 .post p{ /* text of post */
-
+  margin-bottom: 0;
 }
 a {
   color: #000;
