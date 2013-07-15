@@ -9,34 +9,34 @@ Over here on Blob Squad we have been working hard to make an enjoyable game. Fol
 <div class="gallery">
     <ul>
         <li>
-            <img src="/img/2013-04-02/Big Multiplayer Sesh.jpg" />
+            <a href="/img/2013-04-02/Big Multiplayer Sesh.jpg" data-lightbox="2013-04-02">image #1</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Blob Chain on Level 3.jpg" />
+            <a href="/img/2013-04-02/Blob Chain on Level 3.jpg" data-lightbox="2013-04-02">image #2</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/C.jpg" />
+            <a href="/img/C.jpg" data-lightbox="2013-04-02">image #3</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Conveyor Belt Cannon.jpg" />
+            <a href="/img/2013-04-02/Conveyor Belt Cannon.jpg" data-lightbox="2013-04-02">image #4</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/First Playthrough.jpg" />
+            <a href="/img/2013-04-02/First Playthrough.jpg" data-lightbox="2013-04-02">image #5</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Fun Fun Fun.jpg" />
+            <a href="/img/2013-04-02/Fun Fun Fun.jpg" data-lightbox="2013-04-02">image #6</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Just Got Multiplayer.jpg" />
+            <a href="/img/2013-04-02/Just Got Multiplayer.jpg" data-lightbox="2013-04-02">image #7</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Pill Powa.jpg" />
+            <a href="/img/2013-04-02/Pill Powa.jpg" data-lightbox="2013-04-02">image #8</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Cooperativeness.jpg" />
+            <a href="/img/2013-04-02/Cooperativeness.jpg" data-lightbox="2013-04-02">image #9</a>
         </li>
         <li>
-            <img src="/img/2013-04-02/Snuggle Blobs.jpg" />
+            <a href="/img/2013-04-02/Snuggle Blobs.jpg" data-lightbox="2013-04-02">image #10</a>
         </li>
     </ul>
 </div>
