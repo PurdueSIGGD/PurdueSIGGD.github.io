@@ -92,13 +92,14 @@ h1 {
     height: 150px;
     width: 650px;
     margin-bottom: 10px; 
+    overflow: hidden;
 }
 .gallery img {
     height: 150px;
 }
 .gallery ul {
     width: 960px;
-    height: 150px;
+    height: 160px;
     white-space: nowrap;
     list-style: none;
     overflow-x: scroll;
