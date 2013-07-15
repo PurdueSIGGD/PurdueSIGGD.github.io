@@ -88,3 +88,22 @@ h1 {
   padding-left: 0;
   margin-top: 0;
 }
+.gallery {
+    height: 150px;
+}
+.gallery img {
+    height: 150px;
+}
+.gallery ul {
+    width: 960px;
+    height: 150px;
+    white-space: nowrap;
+    list-style: none;
+    overflow-x: scroll;
+    padding-left:0;
+}
+.gallery li {
+    display: inline;
+    float: left;
+    height: 150px;
+}
