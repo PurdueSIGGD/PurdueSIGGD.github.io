@@ -90,6 +90,8 @@ h1 {
 }
 .gallery {
     height: 150px;
+    width: 650px;
+    margin-bottom: 10px; 
 }
 .gallery img {
     height: 150px;
@@ -104,6 +106,5 @@ h1 {
 }
 .gallery li {
     display: inline;
-    float: left;
     height: 150px;
 }
