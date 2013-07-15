@@ -15,7 +15,7 @@ Over here on Blob Squad we have been working hard to make an enjoyable game. Fol
             <a href="/img/2013-04-02/Blob Chain on Level 3.jpg" data-lightbox="2013-04-02">image #2</a>
         </li>
         <li>
-            <a href="/img/C.jpg" data-lightbox="2013-04-02">image #3</a>
+            <a href="/img/2013-04-02/C.jpg" data-lightbox="2013-04-02">image #3</a>
         </li>
         <li>
             <a href="/img/2013-04-02/Conveyor Belt Cannon.jpg" data-lightbox="2013-04-02">image #4</a>
