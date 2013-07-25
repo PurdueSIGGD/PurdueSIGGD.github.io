@@ -21,13 +21,10 @@ layout: default
 	<span class="email">moc.tset@tset</span>
 </div>
 <script type="text/javascript">
-//$('.email').text($('.email').text().split("").reverse().join(""));
 $('.email').hover(function(){
-	var pos = $('.email').position();
-	$('.emailTip').css('display','block');
-	$('.emailTip').css('left',pos.left);
-	$('.emailTip').css('top',pos.top);
+	$('.email').text($('.email').text().split("").reverse().join(""));
+	$('.email').css("direction","ltr");
 },function(){
-	$('.emailTip').css('display','none');
+	//no out-hover
 });
 </script>
