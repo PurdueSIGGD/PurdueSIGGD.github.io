@@ -31,7 +31,7 @@ body {
     height: 100px;
     background: #00F;
     padding-top: 37px;  
-    /*display: none;  */
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
