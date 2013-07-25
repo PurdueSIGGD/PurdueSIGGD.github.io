@@ -27,8 +27,8 @@ body {
   direction: rtl;
 }
 .emailTip{
-    width: 212px;  
-    height: 100px;
+    width: 100px;  
+    height: 20px;
     background: #00F;
     padding-top: 37px;  
     display: none;
