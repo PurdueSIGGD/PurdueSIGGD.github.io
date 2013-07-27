@@ -92,7 +92,8 @@ footer{
 }
 .desc-thumb img{
   width: 300px;
-  margin: 10px;
+  margin: 20px;
+  border-radius: 10px;
 }
 a {
   color: #000;
