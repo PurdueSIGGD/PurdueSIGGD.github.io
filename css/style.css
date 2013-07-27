@@ -84,10 +84,14 @@ footer{
 
 }
 .desc{  /* title and text description*/
-  float:right;
+  float:left;
 }
 .desc-thumb{ /*thumbnail for associated project*/
   float:left;
+}
+.desc-thumb img{
+  width: 300px;
+  margin: 10px;
 }
 a {
   color: #000;
