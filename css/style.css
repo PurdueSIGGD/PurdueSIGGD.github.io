@@ -77,6 +77,18 @@ footer{
 .post p{ /* text of post */
   margin-bottom: 0;
 }
+.projects{  /*project listing page*/
+
+}
+.project-desc{ /*specific project listing*/
+
+}
+.desc{  /* title and text description*/
+  float:right;
+}
+.desc-thumb{ /*thumbnail for associated project*/
+  float:left;
+}
 a {
   color: #000;
   text-decoration: none;
