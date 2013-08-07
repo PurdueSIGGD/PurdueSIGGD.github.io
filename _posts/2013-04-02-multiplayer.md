@@ -42,6 +42,6 @@ Over here on Blob Squad we have been working hard to make an enjoyable game. Fol
     </ul>
 </div>
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/WP_-FEdREHU?rel=0" frameborder="0" allowfullscreen> </iframe>
+<iframe width="640" height="360" src="www.youtube.com/embed/WP_-FEdREHU?rel=0" frameborder="0" allowfullscreen> </iframe>
 
 We have already made several bug fixes and implemented&nbsp;more features since these Blob Moments™ were captured! Look for more Blob Game in the near future and make sure to subscribe to our [youtube channel](http://www.youtube.com/PurdueSIGGD) for video updates and developer diaries.
