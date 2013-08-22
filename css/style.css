@@ -25,6 +25,7 @@ body {
 .email{
   unicode-bidi:bidi-override;
   direction: rtl;
+  text-align: center;
 }
 .emailTip{
     width: 100px;  
