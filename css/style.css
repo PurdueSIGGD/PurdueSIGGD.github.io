@@ -143,3 +143,8 @@ h1 {
     display: inline;
     height: 150px;
 }
+
+.youtube-player {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
