@@ -42,7 +42,7 @@ Over here on Blob Squad we have been working hard to make an enjoyable game. Fol
     </ul>
 </div>
 
-<youtube>GNAaHn1Zzsg</youtube>
-<youtube>RZm8Edx5NjM</youtube>
+<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/GNAaHn1Zzsg?html5=1" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/RZm8Edx5NjM?html5=1" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
 
 We have already made several bug fixes and implemented&nbsp;more features since these Blob Moments™ were captured! Look for more Blob Game in the near future and make sure to subscribe to our [youtube channel](http://www.youtube.com/PurdueSIGGD) for video updates and developer diaries.
