@@ -145,6 +145,26 @@ h1 {
     height: 150px;
 }
 
+.gallery::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.gallery::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.gallery::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(67, 146, 184);
+}
+
 .youtube-player {
 	margin-top: 5px;
 	margin-bottom: 5px;
