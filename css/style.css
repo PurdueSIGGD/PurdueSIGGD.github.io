@@ -97,6 +97,11 @@ footer{
   margin: 20px;
   border-radius: 10px;
 }
+
+.desc p{
+  padding-right: 20px;
+}
+
 .project-page {
     
 }
