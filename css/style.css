@@ -83,7 +83,7 @@ footer{
 
 }
 .project-desc{ /*specific project listing*/
-
+    clear:both; /*Needed for multiple projects*/
 }
 .desc{  /* title and text description*/
   float:left;
@@ -97,6 +97,22 @@ footer{
   margin: 20px;
   border-radius: 10px;
 }
+.project-page {
+    
+}
+
+.project-title {
+    max-height:100px;
+}
+
+.project-title img {
+    max-height:100px;
+}
+
+.project-info {
+    padding: 0 20px;
+}
+
 a {
   color: #000;
   text-decoration: none;
