@@ -207,3 +207,13 @@ hr {
   background-color:#7f7f7f;
   border-radius: 3px;
 }
+
+.event {
+    
+}
+
+.event .date {
+  margin-top: -5px;
+  font-size: 15px;
+  font-style: italic;
+}
