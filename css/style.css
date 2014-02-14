@@ -27,7 +27,10 @@ body {
 .email{
   unicode-bidi:bidi-override;
   direction: rtl;
-  margin-left: 6%;
+  
+}
+.sidebar .email {
+    margin-left: 6%;
 }
 .emailTip{
     width: 100px;  

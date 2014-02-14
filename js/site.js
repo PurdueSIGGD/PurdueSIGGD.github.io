@@ -1,7 +1,7 @@
 var flag = 0;
 $('.email').hover(function(){
 	if(flag == 0){
-		$('.email').text($('.email').text().split("").reverse().join(""));
+		$('.email').text($('.email').eq(0).text().split("").reverse().join(""));
 		$('.email').css("direction","ltr");
 		flag = 1;
 	}
@@ -11,7 +11,7 @@ $('.email').hover(function(){
 
 $('.email').hover(function(){
 	if(flag == 0){
-		$('.email').text($('.email').text().split("").reverse().join(""));
+		$('.email').text($('.email').eq(0).text().split("").reverse().join(""));
 		$('.email').css("direction","ltr");
 		flag = 1;
 	}
