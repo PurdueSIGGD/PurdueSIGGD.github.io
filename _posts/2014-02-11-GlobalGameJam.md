@@ -24,3 +24,6 @@ Also anticipate areas of concern. If the facility is often publicly available: e
 
 ####Don’t Skip Team Building
 The value of team building exercises became unfortunately apparent to me after this weekend. While these exercises are largely unnecessary for people who have come in groups, they are crucial to those who have come alone. At least one individual walked out early in the event as a result of not having a team; for that I feel responsible having not created created an inviting atmosphere. Event coordinators follow common schedules for a reason, I learned why the hard way.
+
+[_You read Nick's original post here!_](http://www.nickrishel.com?p=30)
+
