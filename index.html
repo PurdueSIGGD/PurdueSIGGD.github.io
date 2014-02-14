@@ -10,13 +10,14 @@ layout: default
 		<h2>{{ post.title }}</h2>
 	</a>
 	<h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
-	<!--Support for long posts that you dont want fully on the front page.-->
+	
 	{% if post.content contains '<!--more-->' %}
         {{ post.content | split:'<!--more-->' | first }}
-        <br/><br/><a href="{{ post.url }}"">Click here to read more..</a></a>
+        <br/><br/><i><a href="{{ post.url }}">Click here to read more..</a></i>
     {% else %}
         {{ post.content }}
     {% endif %}
+    
 </div>
 <hr>
 {% endfor %}
