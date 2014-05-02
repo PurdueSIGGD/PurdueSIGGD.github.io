@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>20,000 Leagues over the Sea - Online Game Play</title>
+		<title>20,000 Leagues Over the Sea | Purdue SIGGD</title>
 		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
 		<script type="text/javascript">
 		<!--
@@ -15,20 +15,20 @@
 		<script type="text/javascript">
 		<!--
 			var config = {
-				width: 100%, 
-				height: 100%,
+				width: 0, 
+				height: 0,
 				params: { enableDebugging:"0" }
 				
 			};
 			var u = new UnityObject2(config);
-			
+
 			jQuery(function() {
 
 				var $missingScreen = jQuery("#unityPlayer").find(".missing");
 				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
 				$missingScreen.hide();
 				$brokenScreen.hide();
-
+				
 				u.observeProgress(function (progress) {
 					switch(progress.pluginStatus) {
 						case "broken":
@@ -65,14 +65,18 @@
 		body {
 			font-family: Helvetica, Verdana, Arial, sans-serif;
 			background-color: black;
-			color: white;
+			color: black;
 			text-align: center;
+			padding:0px;
+			margin:auto;
+			width:100%;
+			height:100%;
 		}
 		a:link, a:visited {
-			color: #bfbfbf;
+			color: #000;
 		}
 		a:active, a:hover {
-			color: #bfbfbf;
+			color: #666;
 		}
 		p.header {
 			font-size: small;
@@ -85,7 +89,7 @@
 		}
 		div.content {
 			margin: auto;
-			width: 1600px;
+			width: 100%;
 		}
 		div.broken,
 		div.missing {
@@ -107,10 +111,21 @@
 		div.broken {
 			display: none;
 		}
+		/*http://stackoverflow.com/questions/20590239/ */
 		div#unityPlayer {
+			
 			cursor: default;
-			height: 900px;
-			width: 1600px;
+			width: 100vw; 
+			height: 56.25vw; /* 100/56.25 = 1.778 */
+			max-height: 100vh;
+			max-width: 177.78vh; /* 16/9 = 1.778 */
+			margin: auto;
+			position: absolute;
+			top:0;bottom:0; /* vertical center */
+			left:0;right:0; /* horizontal center */
+		}
+		embed{
+			width:100% !important;
 		}
 		-->
 		</style>
@@ -121,6 +136,11 @@
 				<div class="missing">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
 						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+				<div class="broken">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+						<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
 					</a>
 				</div>
 			</div>
