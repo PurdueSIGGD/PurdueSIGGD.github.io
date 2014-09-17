@@ -1,7 +1,7 @@
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
   color: #000;
-  background: #7f7f7f;
+  background-color: #121212;
   padding: 0;
   margin: 0; `
 }
@@ -50,7 +50,7 @@ footer{
   font-size: 0.65em;
   text-align: center;
   color: white;
-  background: black;
+  background: #121212;
 }
 #main {
   width: 960px;
