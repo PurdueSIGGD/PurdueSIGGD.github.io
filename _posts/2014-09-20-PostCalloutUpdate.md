@@ -8,19 +8,19 @@ post_author: Lee Anne
 <div class="gallery">
     <ul>
         <li>
-            <a href="/img/2014-09-20/Callout_9-18-2014-01.jpg" data-lightbox="2013-04-02"><img src="/img/2014-09-20/Callout_9-18-2014-01.jpg" /></a>
+            <a href="/img/2014-09-20/Callout_9-18-2014-01.jpg" data-lightbox="2014-09-18"><img src="/img/2014-09-20/Callout_9-18-2014-01.jpg" /></a>
         </li>
         <li>
-            <a href="/img/2014-09-20/Callout_9-18-2014-02.jpg" data-lightbox="2013-04-02"><img src="/img/2014-09-20/Callout_9-18-2014-02.jpg" /></a>
+            <a href="/img/2014-09-20/Callout_9-18-2014-02.jpg" data-lightbox="2014-09-18"><img src="/img/2014-09-20/Callout_9-18-2014-02.jpg" /></a>
         </li>
         <li>
-            <a href="/img/2014-09-20/Callout_9-18-2014-03.jpg" data-lightbox="2013-04-02"><img src="/img/2014-09-20/Callout_9-18-2014-01" /></a>
+            <a href="/img/2014-09-20/Callout_9-18-2014-03.jpg" data-lightbox="2014-09-18"><img src="/img/2014-09-20/Callout_9-18-2014-03.jpg" /></a>
         </li>
         <li>
-            <a href="/img/2014-09-20/Callout_9-20-2014-01.jpg" data-lightbox="2013-04-02"><img src="/img/2014-09-20/Callout_9-20-2014-01.jpg" /></a>
+            <a href="/img/2014-09-20/Callout_9-20-2014-01.jpg" data-lightbox="2014-09-20"><img src="/img/2014-09-20/Callout_9-20-2014-01.jpg" /></a>
         </li>
         <li>
-            <a href="/img/2014-09-20/Callout_9-20-2014-02.jpg" data-lightbox="2013-04-02"><img src="/img/2014-09-20/Callout_9-20-2014-02.jpg" /></a>
+            <a href="/img/2014-09-20/Callout_9-20-2014-02.jpg" data-lightbox="2014-09-20"><img src="/img/2014-09-20/Callout_9-20-2014-02.jpg" /></a>
         </li>
     </ul>
 </div>
