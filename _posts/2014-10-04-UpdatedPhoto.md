@@ -5,7 +5,7 @@ title: Updated Photo and GDC Sponsorship
 post_author: Lee Anne
 ---
 
-![alt text](/img/siggd_fall_2014_team_photo.jpeg "The New Team")
+![alt text](/img/siggd_fall_2014_team_photo_small.jpeg "The New Team")
 
 After a couple of years, the "About Us" photo needed an update.  Most of the people in the old photo graduated and are doing 
 things in their jobs.  So here we are, a smaller group with a few stragglers that came in after the photo, but still strong at
