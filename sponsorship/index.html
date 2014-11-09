@@ -2,28 +2,21 @@
 layout: default
 ---
 
-<div class="emailTip"></div>
-<div class="posts">
-{% for post in site.posts %}
-<div class="post">
-	<a href="{{ post.url }}">
-		<h2>{{ post.title }}</h2>
-	</a>
-	<h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
+<div style="width: 600px; margin:10px auto 10px;">
+    <h1>Sponsorship</h>
+</div>
+<div class="event " style="padding: 20px 50px;">
+    <p class="date">Last Updated November 8, 2014</p>
 	
-	{% if post.content contains '<!--more-->' %}
-        {{ post.content | split:'<!--more-->' | first }}
-        <br/><br/><i><a href="{{ post.url }}">Click here to read more..</a></i>
-    {% else %}
-        {{ post.content }}
-    {% endif %}
-    
-</div>
-<hr>
-{% endfor %}
-</div>
-<div class="sidebar">
-	<a href="http://cs.purdue.edu" target="_blank"><img src="/img/purduecs.jpeg" alt="Purdue Computer Science" style="width: 200px; border-radius: 10px; margin-top:10px;margin-left:10%;"></a>
-	<a href="http://www.purdue.edu/" target="_blank"><img src="/img/purdue.png" alt="Purdue University" style="width: 200px; border-radius: 10px; margin-top:10px;margin-left:10%;"></a>
-	<span class="email">moc.liamg@eudruP.DGGIS</span>
+	<p>If you are interested in sponsoring future game pogrammers, artists, sound engineers, and game developers, you can do so by selecting a sponsorship tier below:</p>
+	
+    <p>$2000 will guarantee your logo and name listed under “Sponsors” on our Facebook pages, Twitter page, website, and T-shirts for the conference; front page display on our website for a full academic year; and special mention in the credits of our games we make for the 2014-2015 academic year. </p>
+
+	<p>$1500 will guarantee your logo and name listed under “Sponsors” on our Facebook pages, Twitter page, website, and T-shirts for the conference; front page display on our website for a full academic year. </p>
+
+	<p>$1000 will guarantee your logo and name listed under “Sponsors” on our Facebook pages, Twitter page, website, and T-shirts for the conference. </p>
+
+	<p>$500 will guarantee your logo and name listed under “Sponsors” on our Facebook pages, Twitter page, and website. </p>
+	
+	<p>Please email <i>siggd (dot) purdue (at) gmail (dot) com</i> of your interest in sponsoring SIGGD.</p>
 </div>
