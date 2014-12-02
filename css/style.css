@@ -29,6 +29,14 @@ body {
   direction: rtl;
   
 }
+
+.sidebar img {
+	width: 200px; 
+	border-radius: 10px; 
+	margin-top:10px;
+	margin-left:10%;
+}
+
 .sidebar .email {
     margin-left: 6%;
 }
