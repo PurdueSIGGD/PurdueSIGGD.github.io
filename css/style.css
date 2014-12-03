@@ -219,11 +219,7 @@ hr {
   border-radius: 3px;
 }
 
-.event {
-    
-}
-
-.event .date {
+.date {
   margin-top: -5px;
   font-size: 15px;
   font-style: italic;
