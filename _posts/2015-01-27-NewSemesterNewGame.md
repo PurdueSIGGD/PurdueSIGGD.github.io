@@ -5,7 +5,7 @@ title: New Year, New Semester, New Gamers
 post_author: Simon Smith
 ---
 
-![alt text](/img/boilerFrag7.0Small.jpg "BoilerFrag 7.0")
+![alt text](/img/2015-01-27-spacetether.jpg "This is what our game looks like~!")
 
 As part of the "New Semester, New Project" initiative of ACM, we have started
 our brand new project Space Salvage Game (Internally named as NewSpaceGame).
