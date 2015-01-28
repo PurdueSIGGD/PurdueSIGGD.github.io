@@ -84,7 +84,7 @@ footer{
 }
 
 .post img {
-	max-width: 670px;
+	max-width: 650px; /* 690 - 20*2 padding */
 }
 
 .post h2{ /* title of post */
