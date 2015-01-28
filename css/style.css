@@ -77,10 +77,16 @@ footer{
   background: #EEE;
   padding-top: 15px;
 }
+
 .post{  /* all contents of a post*/
   padding: 0 20px;
   background: #EEE;
 }
+
+.post img {
+	max-width: 670px;
+}
+
 .post h2{ /* title of post */
   margin-bottom: 0;
   margin-top: 0;
