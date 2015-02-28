@@ -15,8 +15,22 @@ body {
   background-color:#121212;
   
 }
-.nav li {
+#navli {
   display: inline;
+}
+
+.nav li ul{
+	padding: 0;
+	margin-left: 337px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	list-style-type: none;
+	position: absolute;
+	display: block;
+	width: 142px;
+	visibility: hidden;
+	background-color:#121212;
 }
 .nav a {
   display: inline-block;
