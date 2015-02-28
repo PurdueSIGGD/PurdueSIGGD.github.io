@@ -16,12 +16,17 @@
       <a href="/"><img src="/img/SIGGD Logo 1.png" style="width:960px; background-color:white"></a>
     </div>
       <ul class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/gamejams">Game Jams</a></li>
-        <li><a href="/archive/">Archive</a></li>
-        <li><a href="/about">About</a></li>
-	<li><a href="/sponsorship">Sponsorship</a></li>
+        <li id="navli"><a href="">Home</a></li>
+        <li id="navli"><a href="/projects/">Projects</a></li>
+        <li id="navli"><a href="#">Game Jams</a>
+        	<ul>
+        		<li><a href="/gamejams/">Game Jams</a>
+        		<li><a href="/sponsorship/">Sponsors</a>
+        	</ul> 
+		</li>
+        <li id="navli"><a href="/archive/">Archive</a></li>
+        <li id="navli"><a href="/about/">About</a></li>
+	<li id="navli"><a href="/sponsorship/">Sponsorship</a></li>
       </ul>
  
     {{ content }}
