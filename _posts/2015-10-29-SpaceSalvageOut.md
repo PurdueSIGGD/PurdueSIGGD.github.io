@@ -9,4 +9,4 @@ post_author: Andrew Lonsway
 
 Space Salvage is finally done! We submitted the project to IGF after several long hours of work and difficulty, but it is finally ready.
 
-Play the game in-browser today in our projects page!
+ <a href="http://purduesiggd.github.io/projects/salvage/play/">Click here to play the game in-browser now!.</a>
