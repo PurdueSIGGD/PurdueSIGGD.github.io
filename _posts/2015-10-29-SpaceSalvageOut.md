@@ -11,4 +11,4 @@ Space Salvage is finally done! We submitted the project to IGF after several lon
 
 
 
- <a href="http://purduesiggd.github.io/projects/salvage/play/">Click here to play the game in-browser now!.</a>
+ <a href="http://purduesiggd.github.io/projects/salvage/play/">Click here to play the game in-browser now!</a>
