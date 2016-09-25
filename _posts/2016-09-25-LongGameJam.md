@@ -1,7 +1,7 @@
 ---
 layout: post_entry
 date: September 25th, 2016
-title: Something new: An extended Game Jam!!
+title: Something new, An extended Game Jam!!
 post_author: Andrew Lonsway
 ---
 
