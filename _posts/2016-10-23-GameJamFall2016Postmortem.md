@@ -7,7 +7,7 @@ post_author: Andrew Lonsway
 
 ![alt text](/img/siggdgamejam2016.jpg)
 
-After almost 24 hours of hacking, the 2nd annual SIGGD Game Jam is now complete. We started out with about 11 participants, but numbers fell as groups weren't able to have all members show up. In the end, we had 8 people which led to 5 games being submitted overall.
+After almost 24 hours of hacking, the 3rd annual SIGGD Game Jam is now complete. We started out with about 11 participants, but numbers fell as groups weren't able to have all members show up. In the end, we had 8 people which led to 5 games being submitted overall.
 
 We had a lot of new developers making games, and I am sure everyone learned something new while working together. Next game jam will most certainly be bigger, and we will try to make sure there are more awesome prizes as well!
 
