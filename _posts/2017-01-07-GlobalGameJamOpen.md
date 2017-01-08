@@ -1,8 +1,8 @@
 ---
 layout: post_entry
-date: November 16th, 2015
+date: January 7th, 2017
 title: Global Game Jam is Open!
-post_author: Lee Anne
+post_author: Andrew
 ---
 
 ![alt text](/img/GlobalGameJamLogo.png)
