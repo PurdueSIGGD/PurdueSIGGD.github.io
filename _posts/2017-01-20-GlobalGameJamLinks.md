@@ -9,7 +9,7 @@ Hello Game Jam participants! Here's a set of useful links for you to use for thi
 
 **[Global Game Jam Website](http://globalgamejam.org/)**
 
-**[Jammer Resources](globalgamejam.org/jammer-resources)**
+**[Jammer Resources](http://globalgamejam.org/jammer-resources)**
 
 **[Game Jam Diversifiers (for people who want to do more than just the theme)](http://globalgamejam.org/news/and-ggj17-diversifiers-are)**
 
