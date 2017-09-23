@@ -5,7 +5,7 @@ title: The SIGGD Game Jam has begun!
 post_author: Andrew
 ---
 
-![alt text](/img/siggdgj17_vinson)
+![alt text](/img/siggdgj17_vinson.jpg)
 The SIGGD game jam has officially commenced! We have around 20 participants, all who are eager to win some prizes!
 
 This years theme is: **"Folklore"**! So grab your history books and fairy tales, because this sounds like quite the challenge!
