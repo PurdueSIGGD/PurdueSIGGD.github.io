@@ -7,7 +7,7 @@ post_author: Andrew
 
 ![alt text](/img/18GGJ.png)
 
-On Tuesday, January 23rd at 6:00 in LWSN B131, SIGGD will be hosting its Spring callout! Show up and learn more about the Special Interest Group for Game Development, and find a place in our team!
+On Tuesday, January 16th at 6:00 PM in LWSN B131, SIGGD will be hosting its Spring callout! Show up and learn more about the Special Interest Group for Game Development, and find a place in our team!
 
 Also, that Friday the 26th starting at 4:30 PM in LWSN B151 will be the Global Game Jam! Compete with developers from around the world and spend the weekend making your own game! 
 
