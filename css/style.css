@@ -96,6 +96,19 @@ footer{
   padding-left: 10px;
 }
 
+.persons{
+  width: 690px;
+  float: left;
+  box-shadow: 3px 0px 7px #777;
+  background: #EEE;
+  padding-top: 15px;
+}
+
+.person{  /* all contents of a post*/
+  padding: 0 20px;
+  background: #EEE;
+}
+
 .games{
   width: 690px;
   float: left;
@@ -136,9 +149,6 @@ footer{
 .post p{ /* text of post */
   margin-bottom: 0;
 }
-.projects{  /*project listing page*/
-
-}
 .project-desc{ /*specific project listing*/
     clear:both; /*Needed for multiple projects*/
 }
@@ -163,14 +173,6 @@ footer{
   margin-top:-22.5px;
   font-size: 15px;
   font-style: italic;
-}
-
-.project-page {
-    
-}
-
-.project-title {
-    
 }
 
 .project-title img {

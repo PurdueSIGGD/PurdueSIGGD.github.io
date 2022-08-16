@@ -4,33 +4,23 @@ layout: default
 
 <div class="emailTip"></div>
 <div class="games">
-{% for post in site.main_games %}
-<div class="game">
-	<a href="{{ game.url }}">
-		<h2>{{ game.name }}</h2>
-	</a>
-	<h5>{{ game.dateRange }}</h5>
+    {% for game in site.main_games %}
+    <div class="game">
+        <a href="{{ game.url }}">
+            <h2>{{ game.name }}</h2>
+        </a>
+        <h5>{{ game.dateRange }}</h5>
 
-	{% if game.content contains '<!--more-->' %}
-        {{ game.content | split:'<!--more-->' | first }}
-        <br/><br/><i><a href="{{ game.url }}">Click here to read more..</a></i>
-    {% else %}
+        {% if game.content contains '
+        <!--more-->' %}
+        {{ game.content | split:'
+        <!--more-->' | first }}
+        <br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+        {% else %}
         {{ game.content }}
-    {% endif %}
+        {% endif %}
 
-</div>
-<hr>
-{% endfor %}
-</div>
-<div class="sidebar">
-	<a href="http://www.github.com/PurdueSIGGD" target="_blank"><img src="/img/github.png" alt= "SIGGDs Github Page"/></a>
-	<a href="http://cs.purdue.edu" target="_blank"><img src="/img/purduecs.jpeg" alt="Purdue Computer Science"></a>
-	<a href="http://www.purdue.edu/" target="_blank"><img src="/img/purdue.png" alt="Purdue University"></a>
-	<p>&#083;&#073;&#071;&#071;&#068;&#046;&#112;&#117;&#114;&#100;&#117;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</p>
-	<!-- To avoid bots picking up the email -->
-	<p>Meetings: Monday, Wednesday, & Friday @ 7:00pm in the SIGGD discord: </p>
-	<a href="https://discord.gg/Mb2JAhv">discord.gg/Mb2JAhv</a>
-	<p></p>
-	<!-- ¿Quien es Sombra? -->
-
+    </div>
+    <hr>
+    {% endfor %}
 </div>
