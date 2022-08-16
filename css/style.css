@@ -95,6 +95,20 @@ footer{
   width: 260px;
   padding-left: 10px;
 }
+
+.games{
+  width: 690px;
+  float: left;
+  box-shadow: 3px 0px 7px #777;
+  background: #EEE;
+  padding-top: 15px;
+}
+
+.game{  /* all contents of a post*/
+  padding: 0 20px;
+  background: #EEE;
+}
+
 .posts{
   width: 690px;
   float: left;
