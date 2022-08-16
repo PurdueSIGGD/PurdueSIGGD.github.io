@@ -6,16 +6,16 @@ layout: default
 <div class="games">
 {% for post in site.main_games %}
 <div class="game">
-	<a href="{{ post.url }}">
-		<h2>{{ post.title }}</h2>
+	<a href="{{ game.url }}">
+		<h2>{{ game.name }}</h2>
 	</a>
-	<h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
+	<h5>{{ game.dateRange }}</h5>
 
-	{% if post.content contains '<!--more-->' %}
-        {{ post.content | split:'<!--more-->' | first }}
-        <br/><br/><i><a href="{{ post.url }}">Click here to read more..</a></i>
+	{% if game.content contains '<!--more-->' %}
+        {{ game.content | split:'<!--more-->' | first }}
+        <br/><br/><i><a href="{{ game.url }}">Click here to read more..</a></i>
     {% else %}
-        {{ post.content }}
+        {{ game.content }}
     {% endif %}
 
 </div>
