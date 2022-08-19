@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="officers" style="padding: 20px 50px;">
+    <div class="persons">
+        {% for person in site.officers.previous officers.people %}
+        <div class="person">
+            <a href="{{ person.url }}">
+                <h2>{{page.name}} - {{page.role}}</h2>
+            </a>
+            <h5>{{page.startYear}} - {{page.endYear}}</h5>
+
+            {% if person.content contains '
+            <!--more-->' %}
+            {{ person.content | split:'
+            <!--more-->' | first }}
+            <br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+            {% else %}
+            {{ person.content }}
+            {% endif %}
+
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
+
+    <p><a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
+            about officer responsibilities here.</a></p>
+</div>
