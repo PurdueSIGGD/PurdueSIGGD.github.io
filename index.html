@@ -9,8 +9,8 @@ layout: default
 <div style="height: 100vh;">
 	<div>
 		<!-- Logo -->
-		<div style="background: black;">
-			<a href="/"><img src="/img/logos/siggd_icon_HD.png"></a>
+		<div style="background: black; width: 50%; height: 50%;">
+			<a href="/"><img src="/img/logos/siggd_icon_HD_Square.png"></a>
 		</div>
 		<!-- Name -->
 		<h1>Purdue SIGGD</h1>
@@ -34,7 +34,7 @@ layout: default
 <!-- Games -->
 <div class="content_block" id="games">
 	<h3>Games</h3>
-	{% for game in site.games %}
+	{% for game in site.games limit:2 %}
 	<div class="game">
 		<a href="{{ game.url }}">
 			<h2>{{ game.name }}</h2>
@@ -55,10 +55,11 @@ layout: default
 	{% endfor %}
 </div>
 
-<!-- Officers -->
+<!-- Current officers -->
 <div class="content_block" id="officers">
 	<h3>Officers</h3>
 	{% for person in site.persons %}
+	{% if person.endYear == "present" %}
 	<div class="person">
 		<a href="{{ person.url }}">
 			<h2>{{person.name}} - {{person.role}}</h2>
@@ -73,9 +74,9 @@ layout: default
 		{% else %}
 		{{ person.content }}
 		{% endif %}
-
 	</div>
 	<hr>
+	{% endif %}
 	{% endfor %}
 	<p><a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
 			about officer responsibilities here.</a></p>
