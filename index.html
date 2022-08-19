@@ -13,70 +13,71 @@ layout: default
 <!-- Background Image -->
 
 <!-- About Us -->
-<h3 id="about" style="margin-top: 5px; margin-bottom: 0;">About Us</h3>
-<p style="
-    margin-top: 0;">
+<div class="content_block">
+	<h3>About Us</h3>
+	<p>
 		Founded in Fall 2011, Purdue Special Interest Group Game Development is a multi-disciplinary collaborative group
 		of Purdue University students that creates games as our own development studio. As part of the Association for
 		Computing Machinery Purdue chapter, we are the first SIGGD of ACM National. Our goal is to develop creative and
 		interesting games.
 	</p>
+</div>
 
 <!-- Games -->
-<div id="games" class="games">
-    {% for game in site.games %}
-    <div class="game">
-        <a href="{{ game.url }}">
-            <h2>{{ game.name }}</h2>
-        </a>
-        <h5>{{ game.dateRange }}</h5>
+<div class="content_block">
+	<h3>Games</h3>
+	{% for game in site.games %}
+	<div class="game">
+		<a href="{{ game.url }}">
+			<h2>{{ game.name }}</h2>
+		</a>
+		<h5>{{ game.dateRange }}</h5>
 
-        {% if game.content contains '
-        <!--more-->' %}
-        {{ game.content | split:'
-        <!--more-->' | first }}
-        <br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-        {% else %}
-        {{ game.content }}
-        {% endif %}
+		{% if game.content contains '
+		<!--more-->' %}
+		{{ game.content | split:'
+		<!--more-->' | first }}
+		<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+		{% else %}
+		{{ game.content }}
+		{% endif %}
 
-    </div>
-    <hr>
-    {% endfor %}
+	</div>
+	<hr>
+	{% endfor %}
 </div>
 
 <!-- Officers -->
-<div id="officers" class="officers" style="padding: 20px 50px;">
-    <div class="persons">
-        {% for person in site.persons %}
-        <div class="person">
-            <a href="{{ person.url }}">
-                <h2>{{page.name}} - {{page.role}}</h2>
-            </a>
-            <h5>{{page.startYear}} - {{page.endYear}}</h5>
+<div class="content_block">
+	<h3>Officers</h3>
+	{% for person in site.persons %}
+	<div class="person">
+		<a href="{{ person.url }}">
+			<h2>{{page.name}} - {{page.role}}</h2>
+		</a>
+		<h5>{{page.startYear}} - {{page.endYear}}</h5>
 
-            {% if person.content contains '
-            <!--more-->' %}
-            {{ person.content | split:'
-            <!--more-->' | first }}
-            <br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-            {% else %}
-            {{ person.content }}
-            {% endif %}
+		{% if person.content contains '
+		<!--more-->' %}
+		{{ person.content | split:'
+		<!--more-->' | first }}
+		<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+		{% else %}
+		{{ person.content }}
+		{% endif %}
 
-        </div>
-        <hr>
-        {% endfor %}
-    </div>
-
-    <p><a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
-            about officer responsibilities here.</a></p>
+	</div>
+	<hr>
+	{% endfor %}
+	<p><a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
+			about officer responsibilities here.</a></p>
 </div>
 
 <!-- Game Jams -->
 
 <!-- The last created announcement -->
-<div class="posts">
+<div class="content_block">
+	<h3>Latest Announcement</h3>
 	{% for post in site.posts limit:1 %}
 	<div class="post">
 		<a href="{{ post.url }}">
