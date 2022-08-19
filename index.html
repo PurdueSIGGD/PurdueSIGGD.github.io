@@ -6,14 +6,14 @@ layout: default
 <div class="emailTip"></div>
 
 <!-- Logo -->
-<div style="background: #000000;">
+<div style="background: #000000;" id="page-top">
 	<a href="/"><img src="/img/SIGGD Logo 2.png" style="width:960px; background-color:white"></a>
 </div>
 
 <!-- Background Image -->
 
 <!-- About Us -->
-<div class="content_block">
+<div class="content_block" id="about">
 	<h3>About Us</h3>
 	<p>
 		Founded in Fall 2011, Purdue Special Interest Group Game Development is a multi-disciplinary collaborative group
@@ -24,7 +24,7 @@ layout: default
 </div>
 
 <!-- Games -->
-<div class="content_block">
+<div class="content_block" id="games">
 	<h3>Games</h3>
 	{% for game in site.games %}
 	<div class="game">
@@ -48,14 +48,14 @@ layout: default
 </div>
 
 <!-- Officers -->
-<div class="content_block">
+<div class="content_block" id="officers">
 	<h3>Officers</h3>
 	{% for person in site.persons %}
 	<div class="person">
 		<a href="{{ person.url }}">
-			<h2>{{page.name}} - {{page.role}}</h2>
+			<h2>{{person.name}} - {{person.role}}</h2>
 		</a>
-		<h5>{{page.startYear}} - {{page.endYear}}</h5>
+		<h5>{{person.startYear}} - {{person.endYear}}</h5>
 
 		{% if person.content contains '
 		<!--more-->' %}
