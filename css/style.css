@@ -6,22 +6,6 @@ body {
   margin: 0;
 }
 
-.nav {
-  background-color: white;
-  position: fixed;
-  top: -50px;
-  width: 100%;
-  list-style: none;
-  margin-top: -10px;
-  margin-bottom: 0;
-  padding: 0;
-  text-align: center;
-  background-color: #EF4136;
-}
-#navli {
-  display: inline;
-}
-
 .sponsorlist {
   text-align: center;
   width: 25%;
@@ -345,4 +329,28 @@ hr {
   margin-top: -5px;
   font-size: 15px;
   font-style: italic;
+}
+
+/*New homescreen styles*/
+
+/*Navbar*/
+.navbar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  list-style: none;
+  margin-top: -10px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #EF4136;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
