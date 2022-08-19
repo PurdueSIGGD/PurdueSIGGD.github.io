@@ -24,9 +24,9 @@ layout: default
         {% for person in site.people %}
         <div class="person">
             <a href="{{ person.url }}">
-                <h2>{{ person.name }}</h2>
+                <h2>{{page.name}} - {{page.role}}</h2>
             </a>
-            <h5>{{ person.dateRange }}</h5>
+            <h5>{{page.startYear}} - {{page.endYear}}</h5>
 
             {% if person.content contains '
             <!--more-->' %}
