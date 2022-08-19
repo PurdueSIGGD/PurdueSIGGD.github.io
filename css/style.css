@@ -6,11 +6,6 @@ body {
   margin: 0;
 }
 
-.email {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-
 .emailTip {
   width: 100px;
   height: 20px;
@@ -23,12 +18,12 @@ body {
 }
 
 a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #aaa;
+  color: gray;
   text-decoration: none;
 }
 
@@ -49,6 +44,11 @@ hr {
 }
 
 /*New homescreen styles*/
+
+/*HTML settings*/
+html {
+  scroll-behavior: smooth
+}
 
 /*Main Style*/
 #main {
@@ -161,4 +161,10 @@ footer {
 .post img {
   max-width: 650px;
   /* 690 - 20*2 padding */
+}
+
+/*Used to reverse email to avoid bots picking it up*/
+.email {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
