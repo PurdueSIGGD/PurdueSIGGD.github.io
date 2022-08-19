@@ -109,6 +109,21 @@ footer{
   background: #EEE;
 }
 
+.person img {
+	max-width: 650px; /* 690 - 20*2 padding */
+}
+
+.person h2{ /* title of game */
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.person h5{ /* date of game */
+  margin: 0;
+}
+.person p{ /* text of game */
+  margin-bottom: 0;
+}
+
 .games{
   width: 690px;
   float: left;
