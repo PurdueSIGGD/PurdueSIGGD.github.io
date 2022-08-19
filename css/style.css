@@ -53,7 +53,6 @@ hr {
 /*Main Style*/
 #main {
   width: 100%;
-  margin: 15px auto;
   background: white;
 }
 
@@ -64,7 +63,6 @@ hr {
   width: 100%;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 0;
   padding: 0;
   text-align: center;
 }
@@ -75,18 +73,11 @@ hr {
   color: white;
   text-align: center;
   padding: 15px;
-  text-decoration: none;
 }
 
 .home_button {
+  float: left !important;
   background-color: red;
-  float: right;
-  display: block;
-  color: white !important;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  border-radius: 2px;
 }
 
 /*Footer*/
