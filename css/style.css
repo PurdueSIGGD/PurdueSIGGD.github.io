@@ -61,10 +61,13 @@ hr {
   background-color: black;
   position: fixed;
   width: 100%;
-  list-style: none;
   margin-top: 0;
   padding: 0;
   text-align: center;
+}
+
+.navbar ol {
+  list-style: none;
 }
 
 .navbar a {
