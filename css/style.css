@@ -63,14 +63,14 @@ hr {
   position: fixed;
   width: 100%;
   list-style: none;
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   text-align: center;
 }
 
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -82,7 +82,7 @@ hr {
   background-color: red;
   float: right;
   display: block;
-  color: white;
+  color: white !important;
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -92,10 +92,10 @@ hr {
 /*Footer*/
 footer {
   clear: both;
-  font-size: 0.65em;
+  font-size: 1em;
   text-align: center;
   color: white;
-  background: #121212;
+  background: black;
 }
 
 /*Content block*/
@@ -134,8 +134,7 @@ footer {
 .games {
   width: 690px;
   float: left;
-  box-shadow: 3px 0px 7px #777;
-  background: #EEE;
+  background: white;
   padding-top: 15px;
 }
 
@@ -154,8 +153,7 @@ footer {
 .posts {
   width: 690px;
   float: left;
-  box-shadow: 3px 0px 7px #777;
-  background: #EEE;
+  background: white;
   padding-top: 15px;
 }
 
