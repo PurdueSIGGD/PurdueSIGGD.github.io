@@ -178,6 +178,8 @@ footer img {
   float: left;
   background: white;
   padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .content_block p {
