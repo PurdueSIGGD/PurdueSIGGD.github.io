@@ -6,14 +6,16 @@ layout: default
 <div class="emailTip"></div>
 
 <!-- Top of Page -->
-<div style="height: 100vh;">
-	<div>
+<div class="background">
+	<div class="siggdIconAndText">
 		<!-- Logo -->
-		<div style="background: black;">
-			<a href="/"><img src="/img/logos/siggd_icon_HD_Square.png" style="width: 25%; height: 25%;"></a>
-		</div>
+		<a href="/"><img src="/img/logos/siggd_icon_HD_Square.png" style="width: 25%; height: 25%;"></a>
 		<!-- Name -->
 		<h1>Purdue SIGGD</h1>
+		<!-- Line -->
+		<hr>
+		<!-- Short Description -->
+		<h3>Purdue ACM's Special Interest Group on Game Development</h3>
 	</div>
 
 	<!-- Background Image -->
@@ -72,6 +74,14 @@ layout: default
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
+			{% if person.content contains '
+			<!--more-->' %}
+			{{ person.content | split:'
+			<!--more-->' | first }}
+			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			{% else %}
+			{{ person.content }}
+			{% endif %}
 		</div>
 		{% else %}
 		<div style="width: 80%;">
@@ -79,18 +89,18 @@ layout: default
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
+			{% if person.content contains '
+			<!--more-->' %}
+			{{ person.content | split:'
+			<!--more-->' | first }}
+			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			{% else %}
+			{{ person.content }}
+			{% endif %}
 		</div>
 		<div style="width: 20%;">
 			<img alt="" src="{{ person.imageLink}}" style="width: 100%;">
 		</div>
-		{% endif %}
-		{% if person.content contains '
-		<!--more-->' %}
-		{{ person.content | split:'
-		<!--more-->' | first }}
-		<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-		{% else %}
-		{{ person.content }}
 		{% endif %}
 	</div>
 	{% endif %}
