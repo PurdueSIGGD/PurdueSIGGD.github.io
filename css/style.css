@@ -90,11 +90,10 @@ html {
 }
 
 .navbarAnnouncement {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px;
+  float: none !important;
+  border: 2px solid rgb(32, 32, 32);
+  border-radius: 8px;
+  background-color: rgb(16, 16, 16);
 }
 
 .home_button {

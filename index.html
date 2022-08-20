@@ -45,10 +45,10 @@ layout: default
 	<div class="game">
 		{% assign remainder = counter | modulo: 2 %}
 		{% if remainder == 0 %}
-		<div style="width: 30%; float:left;">
+		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
 		</div>
-		<div style="width: 60%; float:left;">
+		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
 			<a href="{{ game.url }}">
 				<h2>{{ game.name }}</h2>
 			</a>
@@ -63,7 +63,7 @@ layout: default
 			{% endif %}
 		</div>
 		{% else %}
-		<div style="width: 60%; float:right;">
+		<div style="width: 60%; float:right; padding: 2%; padding-top: 1%;">
 			<a href="{{ game.url }}">
 				<h2>{{ game.name }}</h2>
 			</a>
@@ -77,7 +77,7 @@ layout: default
 			{{ game.content }}
 			{% endif %}
 		</div>
-		<div style="width: 30%; float:right;">
+		<div style="width: 20%; float:right;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
 		</div>
 		{% endif %}
@@ -94,10 +94,10 @@ layout: default
 	<div class="person">
 		{% assign remainder = counter | modulo: 2 %}
 		{% if remainder == 0 %}
-		<div style="width: 30%; float:left;">
+		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ person.imageLink}}" style="width: 100%;">
 		</div>
-		<div style="width: 60%; float:left;">
+		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
 			<a href="{{ person.url }}">
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
@@ -112,7 +112,7 @@ layout: default
 			{% endif %}
 		</div>
 		{% else %}
-		<div style="width: 60%; float:right;">
+		<div style="width: 60%; float:right; padding: 2%; padding-top: 1%;">	
 			<a href="{{ person.url }}">
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
@@ -126,7 +126,7 @@ layout: default
 			{{ person.content }}
 			{% endif %}
 		</div>
-		<div style="width: 30%; float:right;">
+		<div style="width: 20%; float:right;">
 			<img alt="" src="{{ person.imageLink}}" style="width: 100%;">
 		</div>
 		{% endif %}
