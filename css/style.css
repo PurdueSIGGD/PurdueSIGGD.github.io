@@ -127,6 +127,11 @@ footer {
   background: black;
 }
 
+footer ol {
+  list-style: none;
+  margin: 0
+}
+
 /*Content block*/
 .content_block {
   float: left;
