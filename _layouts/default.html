@@ -19,7 +19,7 @@
     <div class="navbar">
       <div><a class="home_button" href="/">Purdue SIGGD</a></div>
       <!-- The last created announcement -->
-      <div>
+      <div style="border: 2px solid rgb(64, 64, 64); border-radius: 2px; background-color: rgb(32, 32, 32);">
         {% for post in site.posts limit:1 %}
         <a href="{{ post.url }}">
           <h2>{{ post.title }}</h2>
