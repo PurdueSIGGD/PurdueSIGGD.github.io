@@ -34,9 +34,9 @@
     </div>
 
     <!-- Announcement Bar -->
-    <div>
+    <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
-      <a class="navbarAnnouncement" href="{{ post.url }}">{{ post.title }}
+      <a href="{{ post.url }}">{{ post.title }}
         {% if post.content contains '<!--more-->' %}
         {{ post.content | split:'
         <!--more-->' | first }}
