@@ -19,19 +19,18 @@
     <div class="navbar">
       <div><a class="home_button" href="/">Purdue SIGGD</a></div>
       <!-- The last created announcement -->
-      <div>
+      <div style="border: 2px solid rgb(64, 64, 64); border-radius: 2px; background-color: rgb(32, 32, 32);">
         {% for post in site.posts limit:1 %}
         <a href="{{ post.url }}">
-          <h2>{{ post.title }}</h2>
-          <h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
+          <h3>Announcement: {{ post.title }}</h2>
         </a>
         {% endfor %}
-        <a href="/archive/">Announcements</a>
       </div>
       <div>
         <ol>
           <!--This has to be in reverse order to show up correctly-->
           <li><a href="https://discord.gg/Mb2JAhv">Discord</a></li>
+          <li><a href="/archive/">Announcements</a></li>
           <li><a href="/#links">Links</a></li>
           <li><a href="/#game_jams">Game Jams</a></li>
           <li><a href="/#officers">Officers</a></li>
