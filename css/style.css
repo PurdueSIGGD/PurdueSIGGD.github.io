@@ -81,16 +81,20 @@ html {
   margin: 0;
 }
 
-.navbar div {
-  display: inline-block
-}
-
 .navbar a {
   float: right;
   display: block;
   color: white;
   text-align: center;
   padding: 15px;
+}
+
+.navbarAnnouncement {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
 
 .home_button {
@@ -147,7 +151,7 @@ footer img {
 .footerCentered {
   width: 50%;
   height: 50%;
-  transform: translate(50%, 50%);
+  transform: translate(50%, 0%);
 }
 
 /*Content block*/
@@ -201,28 +205,16 @@ p {
   display: inline-block
 }
 
-.person img {
-  max-width: 256px;
-}
-
 /*Games*/
 .game {
   padding: 2%;
   display: inline-block
 }
 
-.game img {
-  max-width: 256px;
-}
-
 /*Posts*/
 .post {
   padding: 2%;
   display: inline-block
-}
-
-.post img {
-  max-width: 256px;
 }
 
 /*Used to reverse email to avoid bots picking it up*/
