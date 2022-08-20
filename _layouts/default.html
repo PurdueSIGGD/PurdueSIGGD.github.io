@@ -21,7 +21,7 @@
       <!-- The last created announcement -->
       <div style="border: 2px solid rgb(64, 64, 64); border-radius: 2px; background-color: rgb(32, 32, 32);">
         {% for post in site.posts limit:1 %}
-        <a href="{{ post.url }}">Announcement: {{ post.title }}</a>
+        <a class="navbarAnnouncement" href="{{ post.url }}">Announcement: {{ post.title }}</a>
         {% endfor %}
       </div>
       <div>

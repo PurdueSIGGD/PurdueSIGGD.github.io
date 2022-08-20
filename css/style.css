@@ -81,16 +81,20 @@ html {
   margin: 0;
 }
 
-.navbar div {
-  display: inline-block
-}
-
 .navbar a {
   float: right;
   display: block;
   color: white;
   text-align: center;
   padding: 15px;
+}
+
+.navbarAnnouncement {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
 
 .home_button {
