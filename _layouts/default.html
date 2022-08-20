@@ -17,14 +17,9 @@
   <div id="main">
     <!-- Navigation Bar -->
     <div class="navbar">
-      <div><a class="home_button" href="/">Purdue SIGGD</a></div>
+      <div style="display: inline-block;"><a class="home_button" href="/">Purdue SIGGD</a></div>
       <!-- The last created announcement -->
-      <div style="border: 2px solid rgb(64, 64, 64); border-radius: 2px; background-color: rgb(32, 32, 32);">
-        {% for post in site.posts limit:1 %}
-        <a class="navbarAnnouncement" href="{{ post.url }}">Announcement: {{ post.title }}</a>
-        {% endfor %}
-      </div>
-      <div>
+      <div style="display: inline-block;">
         <ol>
           <!--This has to be in reverse order to show up correctly-->
           <li><a href="https://discord.gg/Mb2JAhv">Discord</a></li>
@@ -35,6 +30,11 @@
           <li><a href="/#games">Games</a></li>
           <li><a href="/#about">About Us</a></li>
         </ol>
+      </div>
+      <div>
+        {% for post in site.posts limit:1 %}
+        <a class="navbarAnnouncement" href="{{ post.url }}">Announcement: {{ post.title }}</a>
+        {% endfor %}
       </div>
     </div>
 
