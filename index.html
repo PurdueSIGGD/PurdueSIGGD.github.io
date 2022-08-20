@@ -23,33 +23,64 @@ layout: default
 <div class="content_block" id="about">
 	<h3>About Us</h3>
 	<p>
-		Founded in Fall 2011, Purdue ACM's Special Interest Group on Game Development is a multi-disciplinary group of Purdue University students that creates a new <a class="aInParagraph" style = "white-space: nowrap;" href="/#games">game</a> each school year. As part of the Association for Computing Machinery Purdue chapter, we are the first SIGGD of ACM National. Our goal is to develop creative and interesting games.
-		In addition, we host a <a class="aInParagraph" style = "white-space: nowrap;" href="/game-jams">game jam</a> (game development hackathon) each semester were groups come together either online or in-person to create a video game prototype in 48 hours.
-		We primarily communicate through our <a class="aInParagraph" style = "white-space: nowrap;" href="https://discord.gg/Mb2JAhv">Discord Server</a>, so if you are interested in joining the club be sure to join!
+		Founded in Fall 2011, Purdue ACM's Special Interest Group on Game Development is a multi-disciplinary group of
+		Purdue University students that creates a new <a class="aInParagraph" style="white-space: nowrap;"
+			href="/#games">game</a> each school year. As part of the Association for Computing Machinery Purdue chapter,
+		we are the first SIGGD of ACM National. Our goal is to develop creative and interesting games.
+		In addition, we host a <a class="aInParagraph" style="white-space: nowrap;" href="/game-jams">game jam</a> (game
+		development hackathon) each semester were groups come together either online or in-person to create a video game
+		prototype in 48 hours.
+		We primarily communicate through our <a class="aInParagraph" style="white-space: nowrap;"
+			href="https://discord.gg/Mb2JAhv">Discord Server</a>, so if you are interested in joining the club be sure
+		to join!
 	</p>
 </div>
 
 <!-- Games -->
 <div class="content_block" id="games">
 	<h3>Games</h3>
+	{% assign counter = 0 %}
 	{% for game in site.games limit:2 %}
 	<div class="game">
-		<a href="{{ game.url }}">
-			<h2>{{ game.name }}</h2>
-		</a>
-		<h5>{{ game.dateRange }}</h5>
-
-		{% if game.content contains '
-		<!--more-->' %}
-		{{ game.content | split:'
-		<!--more-->' | first }}
-		<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+		{% assign remainder = counter | modulo: 2 %}
+		{% if remainder == 0 %}
+		<div style="width: 20%;">
+			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
+		</div>
+		<div style="width: 80%;">
+			<a href="{{ game.url }}">
+				<h2>{{ game.name }}</h2>
+			</a>
+			<h5>{{ game.dateRange }}</h5>
+			{% if game.content contains '
+			<!--more-->' %}
+			{{ game.content | split:'
+			<!--more-->' | first }}
+			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+			{% else %}
+			{{ game.content }}
+			{% endif %}
+		</div>
 		{% else %}
-		{{ game.content }}
+		<div style="width: 80%;">
+			<a href="{{ game.url }}">
+				<h2>{{ game.name }}</h2>
+			</a>
+			<h5>{{ game.dateRange }}</h5>
+			{% if game.content contains '
+			<!--more-->' %}
+			{{ game.content | split:'
+			<!--more-->' | first }}
+			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+			{% else %}
+			{{ game.content }}
+			{% endif %}
+		</div>
+		<div style="width: 20%;">
+			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
+		</div>
 		{% endif %}
-
 	</div>
-	<hr>
 	{% endfor %}
 </div>
 
@@ -117,16 +148,12 @@ layout: default
 			<h2>{{ post.title }}</h2>
 		</a>
 		<h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
-
-		{% if post.content contains '
-		<!--more-->' %}
-		{{ post.content | split:'
-		<!--more-->' | first }}
+		{% if post.content contains '<!--more-->' %}
+		{{ post.content | split:'<!--more-->' | first }}
 		<br /><br /><i><a href="{{ post.url }}">Click here to read more..</a></i>
 		{% else %}
 		{{ post.content }}
 		{% endif %}
-
 	</div>
 	<hr>
 	{% endfor %}
@@ -142,8 +169,4 @@ layout: default
 	<p>&#083;&#073;&#071;&#071;&#068;&#046;&#112;&#117;&#114;&#100;&#117;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 	</p>
 	To avoid bots picking up the email
-	<p>Meetings: Monday, Wednesday, & Friday @ 7:00pm in the SIGGD discord: </p>
-	<a href="https://discord.gg/Mb2JAhv">discord.gg/Mb2JAhv</a>
-	<p></p>
-
 </div>-->
