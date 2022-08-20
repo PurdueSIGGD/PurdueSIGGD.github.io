@@ -95,7 +95,7 @@ footer {
 
 /*Content block*/
 .content_block {
-  width: 100%;
+  width: 80%;
   float: left;
   background: white;
   padding-top: 15px;
@@ -124,11 +124,6 @@ h5 {
 }
 
 /*People*/
-.persons {
-  width: 100%;
-  float: left;
-}
-
 .person {
   padding: 20px;
 }
@@ -138,13 +133,6 @@ h5 {
 }
 
 /*Games*/
-.games {
-  width: 690px;
-  float: left;
-  background: white;
-  padding-top: 15px;
-}
-
 .game {
   /* all contents of a game*/
   padding: 0 20px;
@@ -157,13 +145,6 @@ h5 {
 }
 
 /*Posts*/
-.posts {
-  width: 690px;
-  float: left;
-  background: white;
-  padding-top: 15px;
-}
-
 .post {
   /* all contents of a post*/
   padding: 0 20px;
