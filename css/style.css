@@ -102,6 +102,8 @@ html {
   border: 2px solid rgb(64, 64, 64);
   border-radius: 8px;
   background-color: rgb(16, 16, 16);
+  width: 50%;
+  transform: translate(50%, 0);
 }
 
 .navbarAnnouncement a {
@@ -193,6 +195,14 @@ h1 {
 
 /*Title eader for content block children*/
 h2 {
+  font-weight: normal;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Text for announcements*/
+h3 {
   font-weight: normal;
   margin: 0;
   margin-top: 0;
