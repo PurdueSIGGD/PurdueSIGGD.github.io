@@ -18,6 +18,16 @@
     <!-- Navigation Bar -->
     <div class="navbar">
       <div><a class="home_button" href="/">Purdue SIGGD</a></div>
+      <!-- The last created announcement -->
+      <div>
+        {% for post in site.posts limit:1 %}
+        <a href="{{ post.url }}">
+          <h2>{{ post.title }}</h2>
+          <h5>{{ post.date | date: "%d %B %Y" }} - {{ post.post_author }}</h5>
+        </a>
+        {% endfor %}
+        <a href="/archive/">Click to see previous announcements.</a>
+      </div>
       <div>
         <ol>
           <!--This has to be in reverse order to show up correctly-->
@@ -36,8 +46,10 @@
     <footer id="links">
       <div>
         <ol>
-          <li><a href="http://www.github.com/PurdueSIGGD" target="_blank"><img src="/img/logos/GitHub_Logo_White.png" alt="SIGGDs Github Page" /></a></li>
-          <li><a href="http://cs.purdue.edu" target="_blank"><img src="/img/logos/purdueCsCircle.jpg" alt="Purdue Computer Science"></a></li>
+          <li><a href="http://www.github.com/PurdueSIGGD" target="_blank"><img src="/img/logos/GitHub_Logo_White.png"
+                alt="SIGGDs Github Page" /></a></li>
+          <li><a href="http://cs.purdue.edu" target="_blank"><img src="/img/logos/purdueCsCircle.jpg"
+                alt="Purdue Computer Science"></a></li>
         </ol>
       </div>
       <p>&copy; Purdue SIGGD 2022 - <span class="email">moc.liamg@eudruP.DGGIS</span></p>

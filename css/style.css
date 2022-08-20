@@ -41,7 +41,8 @@ a:hover {
 
 hr {
   height: 3px;
-  color: black;
+  border-color: black;
+  background-color: black;
   border-radius: 4px;
 }
 
@@ -187,7 +188,6 @@ p {
 /*People*/
 .person {
   padding: 2%;
-  width: 80%;
 }
 
 .person img {
@@ -197,7 +197,6 @@ p {
 /*Games*/
 .game {
   padding: 2%;
-  width: 80%;
 }
 
 .game img {
@@ -207,7 +206,6 @@ p {
 /*Posts*/
 .post {
   padding: 2%;
-  width: 80%;
 }
 
 .post img {
