@@ -19,12 +19,20 @@ body {
 
 a {
   color: black;
-  text-decoration: none;
 }
 
 a:hover {
   color: gray;
+}
+
+/*Hyperlink for in-paragraph test*/
+.aInParagraph {
+  color: blue;
   text-decoration: none;
+}
+
+.aInParagraph:hover {
+  text-decoration: underline;
 }
 
 hr {
