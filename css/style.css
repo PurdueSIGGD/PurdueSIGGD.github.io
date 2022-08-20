@@ -113,12 +113,24 @@ html {
 }
 
 .navbarAnnouncement a:hover {
-  color: red !important;
+  color: red;
 }
 
 .home_button {
   float: left !important;
   background-color: red;
+}
+
+.home_button:hover {
+  color: black !important
+}
+
+.discord_button {
+  background-color: #7289da;
+}
+
+.discord_button:hover {
+  color: black !important
 }
 
 /*Background*/
