@@ -17,9 +17,9 @@
   <div id="main">
     <!-- Navigation Bar -->
     <div class="navbar">
-      <div style="display: inline-block;"><a class="home_button" href="/">Purdue SIGGD</a></div>
+      <div><a class="home_button" href="/">Purdue SIGGD</a></div>
       <!-- The last created announcement -->
-      <div style="display: inline-block;">
+      <div>
         <ol>
           <!--This has to be in reverse order to show up correctly-->
           <li><a href="https://discord.gg/Mb2JAhv">Discord</a></li>
@@ -31,11 +31,22 @@
           <li><a href="/#about">About Us</a></li>
         </ol>
       </div>
-      <div>
-        {% for post in site.posts limit:1 %}
-        <a class="navbarAnnouncement" href="{{ post.url }}">Announcement: {{ post.title }}</a>
-        {% endfor %}
-      </div>
+    </div>
+
+    <!-- Announcement Bar -->
+    <div>
+      {% for post in site.posts limit:1 %}
+      <a class="navbarAnnouncement" href="{{ post.url }}">{{ post.title }}
+        {% if post.content contains '
+        <!--more-->' %}
+        {{ post.content | split:'
+        <!--more-->' | first }}
+        ...
+        {% else %}
+        {{ post.content }}
+        {% endif %}
+      </a>
+      {% endfor %}
     </div>
 
     {{ content }}
