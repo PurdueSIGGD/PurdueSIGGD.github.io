@@ -29,10 +29,12 @@ a:hover {
 .aInParagraph {
   color: blue;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .aInParagraph:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 hr {
