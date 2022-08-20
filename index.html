@@ -44,7 +44,7 @@ layout: default
 <div class="content_block" id="games">
 	<h3>Games</h3>
 	{% assign counter = 0 %}
-	{% for game in site.games limit:2 %}
+	{% for game in site.games limit:2 reversed %}
 	<div class="game">
 		{% assign remainder = counter | modulo: 2 %}
 		{% if remainder == 0 %}
