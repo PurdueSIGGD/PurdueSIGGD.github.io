@@ -64,6 +64,7 @@ html {
   margin-top: 0;
   padding: 0;
   text-align: center;
+  z-index: 10;
 }
 
 .navbar ol {
@@ -87,15 +88,28 @@ html {
 /*Background*/
 .background {
   height: 100vh;
+}
+
+.background::before {
+  content: "";
   background-image: url('/img/Callout.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 /*SIGGD Icon and info in frot of the background*/
 .siggdIconAndText {
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  transform: translate(50%, 50%);
 }
 
 /*Footer*/
