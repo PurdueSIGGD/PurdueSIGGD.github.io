@@ -4,7 +4,7 @@ name: Nicole Tomaszewski
 role: Art Lead
 startYear: 2022
 endYear: Present
-imageLink: /img/purdue.png
+imageLink: /img/people/nicole.jfif
 ---
 <!--Put description here:-->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Nicole Tomaszewski is a computer science major with a specialization in software engineering. 
