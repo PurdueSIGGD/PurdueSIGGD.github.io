@@ -188,6 +188,7 @@ p {
 /*People*/
 .person {
   padding: 2%;
+  display: inline-block
 }
 
 .person img {
@@ -197,6 +198,7 @@ p {
 /*Games*/
 .game {
   padding: 2%;
+  display: inline-block
 }
 
 .game img {
@@ -206,6 +208,7 @@ p {
 /*Posts*/
 .post {
   padding: 2%;
+  display: inline-block
 }
 
 .post img {
