@@ -3,13 +3,13 @@ layout: default
 ---
 <div class="game">
     <div style="width: 20%; float:left;">
-        <img alt="" src="{{ game.imageLink}}" style="width: 100%;">
+        <img alt="" src="{{ page.imageLink}}" style="width: 100%;">
     </div>
     <div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
-        <a href="{{ game.url }}">
-            <h2>{{ game.name }}</h2>
+        <a href="{{ page.url }}">
+            <h2>{{ page.name }}</h2>
         </a>
-        <h5>{{ game.dateRange }}</h5>
-        {{ game.content }}
+        <h5>{{ page.dateRange }}</h5>
+        {{ page.content }}
     </div>
 </div>
