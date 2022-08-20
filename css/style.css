@@ -78,7 +78,11 @@ html {
 
 .navbar ol {
   list-style: none;
-  margin: 0
+  margin: 0;
+}
+
+.navbar div {
+  display: inline-block
 }
 
 .navbar a {
@@ -140,6 +144,12 @@ footer img {
   padding: 2%;
 }
 
+.footerCentered {
+  width: 50%;
+  height: 50%;
+  transform: translate(50%, 50%);
+}
+
 /*Content block*/
 .content_block {
   float: left;
@@ -188,6 +198,7 @@ p {
 /*People*/
 .person {
   padding: 2%;
+  display: inline-block
 }
 
 .person img {
@@ -197,6 +208,7 @@ p {
 /*Games*/
 .game {
   padding: 2%;
+  display: inline-block
 }
 
 .game img {
@@ -206,6 +218,7 @@ p {
 /*Posts*/
 .post {
   padding: 2%;
+  display: inline-block
 }
 
 .post img {
