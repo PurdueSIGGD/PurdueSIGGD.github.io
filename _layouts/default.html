@@ -37,13 +37,12 @@
     <div>
       {% for post in site.posts limit:1 %}
       <a class="navbarAnnouncement" href="{{ post.url }}">{{ post.title }}
-        {% if post.content contains '
-        <!--more-->' %}
+        {% if post.content contains '<!--more-->' %}
         {{ post.content | split:'
         <!--more-->' | first }}
         ...
         {% else %}
-        {{ post.content }}
+        {{ post.content | truncate 80}}
         {% endif %}
       </a>
       {% endfor %}
