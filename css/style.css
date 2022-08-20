@@ -89,6 +89,10 @@ html {
   padding: 15px;
 }
 
+.navbar a:hover {
+  color: red !important;
+}
+
 .navbarAnnouncement {
   position: fixed;
   width: 100%;
@@ -99,6 +103,16 @@ html {
   border: 2px solid rgb(32, 32, 32);
   border-radius: 8px;
   background-color: rgb(16, 16, 16);
+}
+
+.navbarAnnouncement a {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.navbarAnnouncement a:hover {
+  color: red !important;
 }
 
 .home_button {
