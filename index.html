@@ -9,8 +9,8 @@ layout: default
 <div style="height: 100vh;">
 	<div>
 		<!-- Logo -->
-		<div style="background: black; width: 50%; height: 50%;">
-			<a href="/"><img src="/img/logos/siggd_icon_HD_Square.png"></a>
+		<div style="background: black;">
+			<a href="/"><img src="/img/logos/siggd_icon_HD_Square.png" style="width: 25%; height: 25%;"></a>
 		</div>
 		<!-- Name -->
 		<h1>Purdue SIGGD</h1>
@@ -59,7 +59,7 @@ layout: default
 <div class="content_block" id="officers">
 	<h3>Officers</h3>
 	{% for person in site.persons %}
-	{% if person.endYear == "present" %}
+	{% if person.endYear == "Present" or person.endYear == "present" %}
 	<div class="person">
 		<a href="{{ person.url }}">
 			<h2>{{person.name}} - {{person.role}}</h2>
