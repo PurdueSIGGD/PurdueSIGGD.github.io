@@ -37,7 +37,7 @@
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
-        <h3>{{ post.title }}: 
+        <h4>{{ post.title }}: 
           {% if post.content contains '
           <!--more-->' %}
           {{ post.content | split:'
@@ -46,7 +46,7 @@
           {% else %}
           {{ post.content | truncate: 64 }}
           {% endif %}
-        </h3>
+        </h4>
       </a>
       {% endfor %}
     </div>
@@ -60,7 +60,7 @@
         <ol>
           <li><a href="http://www.github.com/PurdueSIGGD" target="_blank"><img src="/img/logos/GitHub_Logo_White.png"
                 alt="SIGGDs Github Page" /></a></li>
-          <li><a href="http://cs.purdue.edu" target="_blank"><img src="/img/logos/purdueCsCircle.jpg"
+          <li><a href="http://cs.purdue.edu" target="_blank"><img src="/img/logos/purdueCS.jpg"
                 alt="Purdue Computer Science"></a></li>
         </ol>
       </div>
