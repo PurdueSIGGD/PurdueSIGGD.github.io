@@ -111,6 +111,18 @@ footer {
   margin-top: 0;
 }
 
+/*Title eader for content blocks*/
+h2 {
+  font-weight: bold;
+}
+
+/*Text header for content blocks*/
+h5 {
+  font-weight: lighter;
+  font-style: italic;
+  color: gray
+}
+
 /*People*/
 .persons {
   width: 100%;
