@@ -42,7 +42,7 @@
         <!--more-->' | first }}
         ...
         {% else %}
-        {{ post.content | truncate 80}}
+        {{ post.content | truncate: 64 }}
         {% endif %}
       </a>
       {% endfor %}
