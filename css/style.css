@@ -67,7 +67,7 @@ html {
 
 /*For page scrolling*/
 .anchor {
-  display: block; position: relative; top: -250px; visibility: hidden;
+  transform: translateY(-8vh);
 }
 
 /*Navbar*/
