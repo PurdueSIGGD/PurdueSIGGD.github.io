@@ -113,6 +113,15 @@ html {
   display: inline-block;
 }
 
+.navbarAnnouncement h4 {
+  margin-right: 8px;
+  float: right;
+}
+
+.navbarAnnouncement p {
+  float: right;
+}
+
 .navbarAnnouncement a:hover {
   color: red;
 }
