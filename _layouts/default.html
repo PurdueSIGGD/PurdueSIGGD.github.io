@@ -37,8 +37,8 @@
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
+        <div style="clear: both;">
         <h4>{{ post.title }}: </h4>
-        <h4>
           {% if post.content contains '
           <!--more-->' %}
           {{ post.content | split:'
@@ -47,7 +47,7 @@
           {% else %}
           {{ post.content | truncate: 64 }}
           {% endif %}
-        </h4>
+        </div>
       </a>
       {% endfor %}
     </div>
