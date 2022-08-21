@@ -103,7 +103,7 @@ html {
   border-radius: 8px;
   background-color: rgb(16, 16, 16);
   width: 80%;
-  transform: translate(12.5%, 0);
+  transform: translate(12.5%, 56px);
 }
 
 .navbarAnnouncement a {
