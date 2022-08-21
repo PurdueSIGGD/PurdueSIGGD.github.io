@@ -65,6 +65,11 @@ html {
   background: white;
 }
 
+/*For page scrolling*/
+.anchor {
+  display: block; position: relative; top: -250px; visibility: hidden;
+}
+
 /*Navbar*/
 .navbar {
   background-color: black;
