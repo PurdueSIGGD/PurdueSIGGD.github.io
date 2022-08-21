@@ -33,25 +33,6 @@
       </div>
     </div>
 
-    <!-- Announcement Bar -->
-    <div class="navbarAnnouncement">
-      {% for post in site.posts limit:1 %}
-      <a href="{{ post.url }}">
-        <div style="clear: both;">
-        <h4>{{ post.title }}: </h4>
-          {% if post.content contains '
-          <!--more-->' %}
-          {{ post.content | split:'
-          <!--more-->' | first }}
-          ...
-          {% else %}
-          {{ post.content | truncate: 64 }}
-          {% endif %}
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-
     <!-- Content -->
     <div style="padding-top: 56px; min-height: 70vh;">
       {{ content }}

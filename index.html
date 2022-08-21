@@ -19,6 +19,25 @@ layout: default
 	</div>
 </div>
 
+<!-- Announcement Bar -->
+<div class="navbarAnnouncement">
+	{% for post in site.posts limit:1 %}
+	<a href="{{ post.url }}">
+		<div style="clear: both;">
+			<h4 style="margin-right: 8px;">{{ post.title }}: </h4>
+			{% if post.content contains '
+			<!--more-->' %}
+			{{ post.content | split:'
+			<!--more-->' | first }}
+			...
+			{% else %}
+			{{ post.content | truncate: 64 }}
+			{% endif %}
+		</div>
+	</a>
+	{% endfor %}
+</div>
+
 <!-- About Us -->
 <div class="content_block" id="about">
 	<h3>About Us</h3>
