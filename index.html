@@ -19,48 +19,37 @@ layout: default
 	</div>
 </div>
 
-<!-- Announcement Bar -->
-<div class="navbarAnnouncement">
-	{% for post in site.posts limit:1 %}
-	<a href="{{ post.url }}">
-		<div style="clear: both;">
-			<h4 style="margin-right: 8px;">{{ post.title }}: </h4>
-			{% if post.content contains '
-			<!--more-->' %}
-			{{ post.content | split:'
-			<!--more-->' | first }}
-			...
-			{% else %}
-			{{ post.content | truncate: 64 }}
-			{% endif %}
-		</div>
-	</a>
-	{% endfor %}
-</div>
+<div class="anchor" id="about"></div>
 
 <!-- About Us -->
-<div class="content_block" id="about">
+<div class="content_block">
 	<h3>About Us</h3>
-	<p>
-		Founded in Fall 2011, Purdue ACM's Special Interest Group on Game Development is a multi-disciplinary group of
-		Purdue University students that creates a new <a class="aInParagraph" style="white-space: nowrap;"
-			href="/#games">game</a> each school year. As part of the Association for Computing Machinery Purdue chapter,
-		we are the first SIGGD of ACM National. Our goal is to develop creative and interesting games.
-	</p>
-	<p>
-		In addition, we host a <a class="aInParagraph" style="white-space: nowrap;" href="/game-jams">game jam</a> (game
-		development hackathon) each semester were groups come together either online or in-person to create a video game
-		prototype in 48 hours.
-	</p>
-	<p>
-		We primarily communicate through our <a class="aInParagraph" style="white-space: nowrap;"
-			href="https://discord.gg/Mb2JAhv">Discord Server</a>, so if you are interested in joining the club be sure
-		to join!
-	</p>
+	<div style="padding: 2%;">
+		<p>
+			Founded in Fall 2011, Purdue ACM's Special Interest Group on Game Development is a multi-disciplinary group
+			of
+			Purdue University students that creates a new <a class="aInParagraph" style="white-space: nowrap;"
+				href="/#games">game</a> each school year. As part of the Association for Computing Machinery Purdue
+			chapter,
+			we are the first SIGGD of ACM National. Our goal is to develop creative and interesting games.
+		</p>
+		<p>
+			In addition, we host a game jam (game development hackathon) each semester were groups come together either
+			online or in-person to create a video game prototype in 48 hours.
+		</p>
+		<p>
+			We primarily communicate through our <a class="aInParagraph" style="white-space: nowrap;"
+				href="https://discord.gg/Mb2JAhv">Discord Server</a>, so if you are interested in joining the club be
+			sure
+			to join!
+		</p>
+	</div>
 </div>
 
+<div class="anchor" id="games"></div>
+
 <!-- Games -->
-<div class="content_block" id="games">
+<div class="content_block">
 	<h3>Games</h3>
 	{% assign counter = 0 %}
 	{% for game in site.games limit:2 reversed %}
@@ -107,8 +96,10 @@ layout: default
 	{% endfor %}
 </div>
 
+<div class="anchor" id="officers"></div>
+
 <!-- Current officers -->
-<div class="content_block" id="officers">
+<div class="content_block">
 	<h3>Officers</h3>
 	<h5>(<a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
 			about officer responsibilities here.</a>)</h5>

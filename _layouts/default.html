@@ -24,8 +24,7 @@
           <!--This has to be in reverse order to show up correctly-->
           <li><a class="discord_button" href="https://discord.gg/Mb2JAhv">Discord</a></li>
           <li><a href="/archive/">Announcements</a></li>
-          <li><a href="/#links">Links</a></li>
-          <li><a href="/#game_jams">Game Jams</a></li>
+          <!--<li><a href="/#game_jams">Game Jams</a></li>-->
           <li><a href="/#officers">Officers</a></li>
           <li><a href="/#games">Games</a></li>
           <li><a href="/#about">About Us</a></li>
@@ -33,12 +32,33 @@
       </div>
     </div>
 
+    <!-- Announcement Bar (only shown if on main page) -->
+    {{% if page.title == "Purdue SIGGD" %}}
+    <div class="navbarAnnouncement">
+      {% for post in site.posts limit:1 %}
+      <a href="{{ post.url }}">
+        <div style="clear: both;">
+          <h4 style="margin-right: 8px;">{{ post.title }}: </h4>
+          {% if post.content contains '
+          <!--more-->' %}
+          {{ post.content | split:'
+          <!--more-->' | first }}
+          ...
+          {% else %}
+          {{ post.content | truncate: 64 }}
+          {% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {{% endif %}}
+
     <!-- Content -->
     <div style="padding-top: 56px; min-height: 70vh;">
       {{ content }}
     </div>
 
-    <footer id="links">
+    <footer>
       <div class="footerCentered">
         <ol>
           <li><a href="http://www.github.com/PurdueSIGGD" target="_blank"><img src="/img/logos/GitHub_Logo_White.png"
