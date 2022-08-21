@@ -115,11 +115,11 @@ html {
 
 .navbarAnnouncement h4 {
   margin-right: 8px;
-  float: right;
+  float: left;
 }
 
 .navbarAnnouncement p {
-  float: right;
+  float: left;
 }
 
 .navbarAnnouncement a:hover {
