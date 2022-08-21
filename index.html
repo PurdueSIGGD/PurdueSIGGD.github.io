@@ -62,7 +62,7 @@ layout: default
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
-			{{ game.content  | truncate: 256 }}
+			{{ game.content | truncate: 256 }}
 			{% endif %}
 		</div>
 		{% else %}
@@ -77,7 +77,7 @@ layout: default
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
-			{{ game.content  | truncate: 256 }}
+			{{ game.content | truncate: 256 }}
 			{% endif %}
 		</div>
 		<div style="width: 20%; float:right;">
@@ -91,6 +91,8 @@ layout: default
 <!-- Current officers -->
 <div class="content_block" id="officers">
 	<h3>Officers</h3>
+	<h5>(<a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
+			about officer responsibilities here.</a>)</h5>
 	{% assign counter = 0 %}
 	{% for person in site.persons %}
 	{% if person.endYear == "Present" or person.endYear == "present" %}
@@ -111,11 +113,11 @@ layout: default
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}
-			{{ person.content  | truncate: 256 }}
+			{{ person.content | truncate: 256 }}
 			{% endif %}
 		</div>
 		{% else %}
-		<div style="width: 60%; float:right; padding: 2%; padding-top: 1%;">	
+		<div style="width: 60%; float:right; padding: 2%; padding-top: 1%;">
 			<a href="{{ person.url }}">
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
@@ -126,7 +128,7 @@ layout: default
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}
-			{{ person.content  | truncate: 256 }}
+			{{ person.content | truncate: 256 }}
 			{% endif %}
 		</div>
 		<div style="width: 20%; float:right;">
@@ -137,8 +139,6 @@ layout: default
 	{% endif %}
 	{% assign counter = counter | plus:1 %}
 	{% endfor %}
-	<p><a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
-			about officer responsibilities here.</a></p>
 </div>
 
 <!-- Game Jams -->

@@ -90,26 +90,27 @@ html {
 }
 
 .navbar a:hover {
-  color: red !important;
+  color: red;
 }
 
 .navbarAnnouncement {
   position: fixed;
-  margin-top: 56px;
+  margin: auto;
   padding: 0;
   text-align: center;
   z-index: 10;
   border: 2px solid rgb(64, 64, 64);
   border-radius: 8px;
   background-color: rgb(16, 16, 16);
-  width: 50%;
-  transform: translate(50%, 0);
+  width: 80%;
+  transform: translate(12.5%, 0);
 }
 
 .navbarAnnouncement a {
   color: white;
   text-align: center;
   padding: 5px;
+  display: inline-block;
 }
 
 .navbarAnnouncement a:hover {
@@ -225,7 +226,7 @@ h3 {
 
 /*Text for announcements*/
 h4 {
-  font-weight: normal;
+  font-weight: lighter;
   margin: 0;
   margin-top: 0;
   margin-bottom: 0;
