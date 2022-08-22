@@ -34,7 +34,7 @@
     </div>
 
     <!-- Announcement Bar -->
-    {% unless page.title %} <!-- Show the Announcement Bar unless the page has a title -->
+    {% if page.title == "" %} <!-- Show the Announcement Bar is page has a blank title -->
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
@@ -57,7 +57,7 @@
       </a>
       {% endfor %}
     </div>
-    {% endunless %}
+    {% endif %}
 
     <!-- Content -->
     <div style="padding-top: 56px; min-height: 70vh;">
