@@ -6,4 +6,7 @@ collections:
   persons:
     output: true
 defaults:
-  title: ""
+  scope:
+    path: ""
+  values:
+    title: ""
