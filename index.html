@@ -69,7 +69,7 @@ layout: default
 			{{ game.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elseif game.content | size > 512 %}
+			{% elsif game.content | size > 512 %}
 			{{ game.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -87,7 +87,7 @@ layout: default
 			{{ game.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elseif game.content | size > 512 %}
+			{% elsif game.content | size > 512 %}
 			{{ game.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -128,7 +128,7 @@ layout: default
 			{{ person.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-			{% elseif person.content | size > 512 %}
+			{% elsif person.content | size > 512 %}
 			{{ person.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -146,7 +146,7 @@ layout: default
 			{{ person.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-			{% elseif person.content | size > 512 %}
+			{% elsif person.content | size > 512 %}
 			{{ person.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}
