@@ -33,8 +33,8 @@
       </div>
     </div>
 
-    <!-- Announcement Bar (only shown if on main page) -->
-    {% unless page.title == "Purdue SIGGD" %}
+    <!-- Announcement Bar -->
+    {% unless page.title %} <!-- Show the Announcement Bar unless the page has a title -->
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
