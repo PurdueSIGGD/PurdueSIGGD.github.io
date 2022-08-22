@@ -62,12 +62,13 @@ layout: default
 				<h2>{{ game.name }}</h2>
 			</a>
 			<h5>{{ game.dateRange }}</h5>
+			{% assign contentSize = game.content | size %}
 			{% if game.content contains '
 			<!--more-->' %}
 			{{ game.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elsif game.content | size > 512 %}
+			{% elsif contentSize > 512 %}
 			{{ game.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -80,12 +81,13 @@ layout: default
 				<h2>{{ game.name }}</h2>
 			</a>
 			<h5>{{ game.dateRange }}</h5>
+			{% assign contentSize = game.content | size %}
 			{% if game.content contains '
 			<!--more-->' %}
 			{{ game.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elsif game.content | size > 512 %}
+			{% elsif contentSize > 512 %}
 			{{ game.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -96,6 +98,7 @@ layout: default
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
 		</div>
 		{% endif %}
+		{% assign counter = counter | plus:1 %}
 	</div>
 	{% endfor %}
 </div>
@@ -120,12 +123,13 @@ layout: default
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
+			{% assign contentSize = person.content | size %}
 			{% if person.content contains '
 			<!--more-->' %}
 			{{ person.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-			{% elsif person.content | size > 512 %}
+			{% elsif contentSize > 512 %}
 			{{ person.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}
@@ -138,12 +142,13 @@ layout: default
 				<h2>{{person.name}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
+			{% assign contentSize = person.content | size %}
 			{% if person.content contains '
 			<!--more-->' %}
 			{{ person.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
-			{% elsif person.content | size > 512 %}
+			{% elsif contentSize > 512 %}
 			{{ person.content | truncate: 512 }}
 			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
 			{% else %}

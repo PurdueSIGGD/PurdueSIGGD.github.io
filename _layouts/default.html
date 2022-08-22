@@ -39,12 +39,15 @@
       <a href="{{ post.url }}">
         <div style="clear: both;">
           <h4 style="margin-right: 8px;">{{ post.title }}: </h4>
+          {% assign nameSize = post.title | size %}
+          {% assign contentSize = post.content | size %}
+          {% assign contentSize = contentSize | plus:nameSize %}
           {% if post.content contains '
           <!--more-->' %}
           {{ post.content | split:'
           <!--more-->' | first }}
           ...
-          {% elsif post.content | size > 64 %}
+          {% elsif contentSize > 64 %}
 			    {{ post.content | truncate: 64 }}
           {% else %}
           {{ post.content }}
