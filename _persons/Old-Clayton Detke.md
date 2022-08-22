@@ -1,6 +1,6 @@
 ---
 layout: person_entry
-name: Clayton Detke
+title: Clayton Detke
 role: President
 startYear: 2018
 endYear: 2020
