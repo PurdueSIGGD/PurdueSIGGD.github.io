@@ -6,7 +6,7 @@
 <!-- Metadata -->
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} Purdue SIGGD </title>
+  <title> {% unless page.title == "" %} {{ page.title }} | {% endunless %} Purdue SIGGD </title>
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="icon" type="image/png" href="/img/logos/siggd_icon_HD_Square.png">
   <link href="/css/lightbox.css" rel="stylesheet" />
