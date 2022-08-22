@@ -4,7 +4,7 @@ title: Sam Schafer
 role: President and Audio Lead
 startYear: 2020
 endYear: Present
-imageLink: https://media-exp1.licdn.com/dms/image/C4E03AQFgrNGOfCARMQ/profile-displayphoto-shrink_400_400/0/1644286693319?e=1666224000&v=beta&t=zrk_zi7ZexZ-ngx1CGay5FfHrBAtsT-gJ4uZNBdB9G0
+imageLink: /img/people/sam.png
 ---
 <!--Put description here:-->
-Sam Schafer is an Agriculture major.
+Sam is an Senior at Purdue University majoring in Plant Genetics, Breeding and Biotechnology from Cicero, IN. He originally joined the club in Freshmen year and has since contributed to the art and music of the SIGGD projects, previously serving as the art lead. Besides doing art and music for the projects, he also has a cotton research experiment and works in Diane Wang's lab.
