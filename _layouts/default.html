@@ -34,7 +34,7 @@
     </div>
 
     <!-- Announcement Bar (only shown if on main page) -->
-    {% unless page.title == "Purdue SIGGD" %}
+    {% if page.title == "Purdue SIGGD" %}
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
@@ -57,7 +57,7 @@
       </a>
       {% endfor %}
     </div>
-    {% endunless %}
+    {% endif %}
 
     <!-- Content -->
     <div style="padding-top: 56px; min-height: 70vh;">
