@@ -5,3 +5,5 @@ collections:
     output: true
   persons:
     output: true
+defaults:
+  title: ""
