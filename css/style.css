@@ -265,12 +265,14 @@ p {
 
 /*People*/
 .person {
+  width: 98%;
   padding: 2%;
   display: inline-block
 }
 
 /*Games*/
 .game {
+  width: 98%;
   padding: 2%;
   display: inline-block
 }

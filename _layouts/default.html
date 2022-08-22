@@ -44,8 +44,10 @@
           {{ post.content | split:'
           <!--more-->' | first }}
           ...
+          {% elseif post.content | size > 512 %}
+			    {{ post.content | truncate: 512 }}
           {% else %}
-          {{ post.content | truncate: 64 }}
+          {{ post.content }}
           {% endif %}
         </div>
       </a>
