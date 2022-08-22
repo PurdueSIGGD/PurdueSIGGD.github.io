@@ -44,8 +44,8 @@
           {{ post.content | split:'
           <!--more-->' | first }}
           ...
-          {% elsif post.content | size > 512 %}
-			    {{ post.content | truncate: 512 }}
+          {% elsif post.content | size > 64 %}
+			    {{ post.content | truncate: 64 }}
           {% else %}
           {{ post.content }}
           {% endif %}
