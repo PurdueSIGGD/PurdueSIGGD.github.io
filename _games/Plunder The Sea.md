@@ -1,6 +1,6 @@
 ---
 layout: game_entry
-name: Plunder The Sea
+title: Plunder The Sea
 dateRange: 2020-2021
 imageLink: /img/projects/plunderthesea/Combat1.png
 ---

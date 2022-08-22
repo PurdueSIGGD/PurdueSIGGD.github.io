@@ -1,6 +1,6 @@
 ---
 layout: game_entry
-name: Sight-Vines
+title: Sight-Vines
 dateRange: 2021-2022
 imageLink: /img/sightVinesGameplay.png
 ---

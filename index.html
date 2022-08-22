@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 <!-- No idea what this is -->
@@ -56,7 +57,7 @@ layout: default
 		</div>
 		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
 			<a href="{{ game.url }}">
-				<h2>{{ game.name }}</h2>
+				<h2>{{ game.title }}</h2>
 			</a>
 			<h5>{{ game.dateRange }}</h5>
 			{% assign contentSize = game.content | size %}
@@ -93,7 +94,7 @@ layout: default
 		</div>
 		<div style="width: 70%; float:left; padding: 2%; padding-top: 1%;">
 			<a href="{{ person.url }}">
-				<h2>{{person.name}} - {{person.role}}</h2>
+				<h2>{{person.title}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
 			{% assign contentSize = person.content | size %}
@@ -112,7 +113,7 @@ layout: default
 		{% else %}
 		<div style="width: 70%; float:right; padding: 2%; padding-top: 1%;">
 			<a href="{{ person.url }}">
-				<h2>{{person.name}} - {{person.role}}</h2>
+				<h2>{{person.title}} - {{person.role}}</h2>
 			</a>
 			<h5>{{person.startYear}} - {{person.endYear}}</h5>
 			{% assign contentSize = person.content | size %}

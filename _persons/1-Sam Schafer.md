@@ -1,6 +1,6 @@
 ---
 layout: person_entry
-name: Sam Schafer
+title: Sam Schafer
 role: President and Audio Lead
 startYear: 2020
 endYear: Present

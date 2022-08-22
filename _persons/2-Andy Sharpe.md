@@ -1,6 +1,6 @@
 ---
 layout: person_entry
-name: Andy Sharpe
+title: Andy Sharpe
 role: Vice President
 startYear: 2020
 endYear: Present
