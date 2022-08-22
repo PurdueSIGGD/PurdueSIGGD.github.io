@@ -5,8 +5,3 @@ collections:
     output: true
   persons:
     output: true
-defaults:
-  scope:
-    path: ""
-  values:
-    title: ""

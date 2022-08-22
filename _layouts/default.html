@@ -6,7 +6,7 @@
 <!-- Metadata -->
 <head>
   <meta charset=utf-8 />
-  <title> {% unless page.title == "" %} {{ page.title }} | {% endunless %} Purdue SIGGD </title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Purdue SIGGD </title>
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="icon" type="image/png" href="/img/logos/siggd_icon_HD_Square.png">
   <link href="/css/lightbox.css" rel="stylesheet" />
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Announcement Bar -->
-    {% if page.title == "" %} <!-- Show the Announcement Bar is page has a blank title -->
+    {% if page.url contains "https://purduesiggd.github.io/" %} <!-- Show the Announcement Bar is page has a blank title -->
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
