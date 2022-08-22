@@ -67,7 +67,7 @@ html {
 
 /*For page scrolling*/
 .anchor {
-  transform: translateY(-8vh);
+  transform: translateY(-96px);
   position: relative;
 }
 
