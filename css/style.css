@@ -151,7 +151,7 @@ html {
 
 /*Background*/
 .background {
-  height: calc(100vh - 18px);;
+  height: calc(100vh - 56px);
 }
 
 .background::before {
