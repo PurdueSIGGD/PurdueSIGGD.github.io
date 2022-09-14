@@ -4,6 +4,7 @@
 <html>
 
 <!-- Metadata -->
+
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Purdue SIGGD </title>
@@ -34,7 +35,8 @@
     </div>
 
     <!-- Announcement Bar -->
-    {% if page.url contains "https://purduesiggd.github.io/" %} <!-- Show the Announcement Bar is page has a blank title -->
+    {% if page.url contains "https://purduesiggd.github.io/" %}
+    <!-- Show the Announcement Bar is page has a blank title -->
     <div class="navbarAnnouncement">
       {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}">
@@ -49,7 +51,7 @@
           <!--more-->' | first }}
           ...
           {% elsif contentSize > 64 %}
-			    {{ post.content | truncate: 64 }}
+          {{ post.content | truncate: 64 }}
           {% else %}
           {{ post.content }}
           {% endif %}
@@ -73,7 +75,9 @@
                 alt="Purdue Computer Science"></a></li>
         </ol>
       </div>
-      <p>&copy; Purdue SIGGD 2022 <!-- - <span class="email">moc.liamg@eudruP.DGGIS</span>--></p>
+      <p>&copy; Purdue SIGGD 2022
+        <!-- - <span class="email">moc.liamg@eudruP.DGGIS</span>-->
+      </p>
       <!--Another way to hide the email from bots: <p>&#083;&#073;&#071;&#071;&#068;&#046;&#112;&#117;&#114;&#100;&#117;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</p>-->
     </footer>
     <script type="text/javascript" src="/js/site.js"></script>
