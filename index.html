@@ -49,7 +49,9 @@ layout: default
 	<h3>Games</h3>
 	<div class="anchor" id="games"></div>
 	<h5>(<a href="/games/">See list of all games</a>)</h5>
-	{% for game in site.games reversed limit:2 %}
+	{% assign games = {{site.games | size }} %}
+	{% assign offsetNum = {{games | minus: 2 }} %}
+	{% for game in site.games reversed offset:offsetNum %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
@@ -143,7 +145,9 @@ layout: default
 	<h3>Game Jams</h3>
 	<div class="anchor" id="game_jams"></div>
 	<h5>(<a href="/game_jams/">See list of all game jams</a>)</h5>
-	{% for game_jam in site.game_jams reversed limit:2 %}
+	{% assign jams = {{site.game_jams | size }} %}
+	{% assign offsetNum = {{jams | minus: 2 }} %}
+	{% for game_jam in site.game_jams reversed offset:offsetNum %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
