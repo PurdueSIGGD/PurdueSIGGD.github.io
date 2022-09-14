@@ -48,7 +48,8 @@ layout: default
 <div class="content_block">
 	<h3>Games</h3>
 	<div class="anchor" id="games"></div>
-	{% for game in site.games limit:2 reversed %}
+	<h5>(<a href="/games/">See list of all games</a>)</h5>
+	{% for game in site.games reversed limit:2 %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
@@ -80,7 +81,7 @@ layout: default
 	<h3>Officers</h3>
 	<div class="anchor" id="officers"></div>
 	<h5>(<a href="https://docs.google.com/document/d/1ZnjgwkP6vf9UPIZOg6qeTRJo322k_7e-cIcqgDlXgVk/edit?usp=sharing">Learn
-			about officer responsibilities here.</a>)</h5>
+			about officer responsibilities here</a>)</h5>
 	{% assign counter = 0 %}
 	{% for person in site.persons %}
 	{% if person.endYear == "Present" or person.endYear == "present" %}
@@ -141,7 +142,8 @@ layout: default
 <div class="content_block">
 	<h3>Game Jams</h3>
 	<div class="anchor" id="game_jams"></div>
-	{% for game_jam in site.game_jams limit:2 reversed %}
+	<h5>(<a href="/game_jams/">See list of all game jams</a>)</h5>
+	{% for game_jam in site.game_jams reversed limit:2 %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
