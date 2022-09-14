@@ -9,7 +9,7 @@ layout: default
 <div class="background">
 	<div class="siggdIconAndText">
 		<!-- Logo -->
-		<a href="/"><img src="/img/logos/SIGGD_logo_final.png" style="width: 50%;"></a>
+		<a href="/"><img src="/img/homepage/SIGGD group image 2022.jpg" style="width: 50%;"></a>
 		<!-- Name -->
 		<h1>Purdue SIGGD</h1>
 		<!-- Line -->
@@ -140,9 +140,9 @@ layout: default
 
 <!-- Game Jams -->
 <div class="content_block">
-	<h3>Games</h3>
+	<h3>Game Jams</h3>
 	<div class="anchor" id="game_jams"></div>
-	{% for game in site.game_jams limit:2 reversed %}
+	{% for game_jam in site.game_jams limit:2 reversed %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
@@ -151,6 +151,9 @@ layout: default
 			<a href="{{ game.url }}">
 				<h2>{{ game.title }}</h2>
 			</a>
+			{% if game.jamLink != null %}
+        	<a href="{{ game.jamLink }}">Jam page link</a>
+        	{% else %}
 			{% assign contentSize = game.content | size %}
 			{% if game.content contains '
 			<!--more-->' %}
