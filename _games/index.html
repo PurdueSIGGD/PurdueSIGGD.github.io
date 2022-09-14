@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<h3>Games</h3>
+<div class="anchor" id="games"></div>
+<h5>(<a href="/games/">See list of all games</a>)</h5>
+{% for game in site.games reversed %}
+<div class="game">
+  <div style="width: 20%; float:left;">
+    <img alt="" src="{{ game.imageLink}}" style="width: 100%;">
+  </div>
+  <div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
+    <a href="{{ game.url }}">
+      <h2>{{ game.title }}</h2>
+    </a>
+    <h5>{{ game.dateRange }}</h5>
+    {% assign contentSize = game.content | size %}
+    {% if game.content contains '
+    <!--more-->' %}
+    {{ game.content | split:'
+    <!--more-->' | first }}
+    <br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+    {% elsif contentSize > 512 %}
+    {{ game.content | truncate: 512 }}
+    <br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+    {% else %}
+    {{ game.content }}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
