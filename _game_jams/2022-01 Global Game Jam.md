@@ -1,0 +1,7 @@
+---
+layout: game_jam
+title: Global Game Jam 2022
+imageLink: /img/projects/plunderthesea/Combat1.png
+---
+<!--Put description here:-->
+This year SIGGD will be hosting a chapter in the 2022 Global Game Jam! Due to reduced Covid restrictions we will also have space to meet in person.
