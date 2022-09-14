@@ -296,3 +296,10 @@ p {
   unicode-bidi: bidi-override;
   direction: rtl;
 }
+
+/*Used to center items*/
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
