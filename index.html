@@ -48,7 +48,7 @@ layout: default
 <div class="content_block">
 	<h3>Games</h3>
 	<div class="anchor" id="games"></div>
-	{% for game in site.games limit:2 reversed %}
+	{% for game in site.games reversed limit:2 %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
@@ -141,7 +141,7 @@ layout: default
 <div class="content_block">
 	<h3>Game Jams</h3>
 	<div class="anchor" id="game_jams"></div>
-	{% for game_jam in site.game_jams limit:2 reversed %}
+	{% for game_jam in site.game_jams reversed limit:2 %}
 	<div class="game">
 		<div style="width: 20%; float:left;">
 			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
