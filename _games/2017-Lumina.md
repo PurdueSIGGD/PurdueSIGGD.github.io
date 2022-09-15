@@ -5,6 +5,7 @@ dateRange: 2017-2017
 imageLink: /img/projects/droneranger/Level1.png
 sourceLink: https://github.com/PurdueSIGGD/Lumina
 gameLink: null
+tagline: Lumina is SIGGD's first 3D Game, filled with exploring dungeons and surviving in the world!
 ---
 <!--Put description here:-->
 Lumina was the Spring-Fall 2017 game! It was our first challenge with a fully 3D first-person game, using procedurally generated dungeons and incorporating a lot of 3D assets.

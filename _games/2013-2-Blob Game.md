@@ -5,6 +5,7 @@ dateRange: 2013-2013
 imageLink: /img/projects/droneranger/Level1.png
 sourceLink: https://github.com/underclocker/Blob-Game
 gameLink: http://blobgame.com.s3-website-us-west-2.amazonaws.com/
+tagline: Blob game is a unique puzzle platformer that utilizes unqiue 'blob' physics. It also features local multiplayer and excellent controller support.
 ---
 <!--Put description here:-->
 Blob game is a unique puzzle platformer that utilizes unqiue 'blob' physics. It also features local multiplayer and excellent controller support.

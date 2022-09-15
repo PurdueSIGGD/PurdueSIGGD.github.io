@@ -5,6 +5,7 @@ dateRange: 2017-2018
 imageLink: /img/projects/projectw/projWLogo.png
 sourceLink: https://github.com/PurdueSIGGD/ProjectW
 gameLink: null
+tagline: Project W is SIGGD's first 3D multiplayer third-person shooting game, featuring wizards, magic, skills, and ludicrous fun!
 ---
 <!--Put description here:-->
 Project W was the Fall 2017-Spring 2018 game! It was our first challenge implementing a multiplayer and server hosting mechanic, as well as experimenting with various visual effects.

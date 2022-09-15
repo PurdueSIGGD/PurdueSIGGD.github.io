@@ -5,6 +5,7 @@ dateRange: 2015-2015
 imageLink: /img/projects/droneranger/Level1.png
 sourceLink: https://github.com/PurdueSIGGD/SpaceSalvage
 gameLink: null
+tagline: Space Salvage is SIGGD's 2015 project involving survival, skill, and luck.
 ---
 <!--Put description here:-->
 Space Salvage is an open world, procedurally generated 2D landscape that you, the drifter, must scavenge. You and your equipment only start with so much, and it is up to you to continue exploring the landscape, bringing packages to your ship, leaving and buying upgrades, and protecting yourself from the several hazards you may encounter while you explore this world.
