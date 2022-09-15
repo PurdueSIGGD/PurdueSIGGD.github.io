@@ -5,5 +5,7 @@ collections:
     output: true
   game-jams:
     output: true
+  game-jam-games:
+    output: true
   persons:
     output: true

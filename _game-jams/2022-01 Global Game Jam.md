@@ -1,6 +1,7 @@
 ---
 layout: game_jam
 title: Global Game Jam 2022
+theme: Duality
 imageLink: /img/logos/globalGameJamBanner.png
 jamLink: https://globalgamejam.org/2022/jam-sites/purdue-siggd
 ---
