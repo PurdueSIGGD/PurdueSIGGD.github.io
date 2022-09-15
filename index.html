@@ -70,8 +70,8 @@ layout: default
 			{{ game.content | split:'
 			<!--more-->' | first }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elsif contentSize > 512 %}
-			{{ game.content | truncate: 512 }}
+			{% elsif contentSize > 256 %}
+			{{ game.content | truncate: 256 }}
 			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
 			{% else %}
 			{{ game.content }}
