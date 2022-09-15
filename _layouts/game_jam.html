@@ -7,9 +7,8 @@ layout: default
     </div>
     <div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
         <a href="{{ page.url }}">
-            <h2>{{ page.title }}</h2>
+            <h2>{{ page.title }} - Theme: "{{ page.theme }}"</h2>
         </a>
-        <h2>- Theme: {{ page.theme }}</h2>
         {% if page.jamLink != null %}
         <a class = aInParagraph href="{{ page.jamLink }}">Jam page link</a>
         {% endif %}
