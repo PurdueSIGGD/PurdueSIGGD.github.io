@@ -7,4 +7,4 @@ sourceLink: null
 gameLink: null
 ---
 <!--Put description here:-->
-Wild west side scroller with Sci-Fi elements. 
+Our project for the Spring 2013 semester. Turn based strategy game involving packs of animals fighting for survival on a battlefield of randomly generated terrain. Built on our Mirror Engine, Animal Armies shows that the engine can be adapted from a game of adventure to a game of turn based strategy. 

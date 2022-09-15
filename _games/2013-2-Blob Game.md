@@ -7,4 +7,4 @@ sourceLink: https://github.com/underclocker/Blob-Game
 gameLink: http://blobgame.com.s3-website-us-west-2.amazonaws.com/
 ---
 <!--Put description here:-->
-Wild west side scroller with Sci-Fi elements. 
+Blob game is a unique puzzle platformer that utilizes unqiue 'blob' physics. It also features local multiplayer and excellent controller support.
