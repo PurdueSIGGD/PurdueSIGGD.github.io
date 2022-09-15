@@ -191,8 +191,8 @@ footer ol {
 }
 
 footer img {
-  width: 15%;
-  padding: 2%;
+  width: 5%;
+  padding: 1%;
 }
 
 .footerCentered {
@@ -304,11 +304,4 @@ p {
 .email {
   unicode-bidi: bidi-override;
   direction: rtl;
-}
-
-/*Used to center items*/
-.flexbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

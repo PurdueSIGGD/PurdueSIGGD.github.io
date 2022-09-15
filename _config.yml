@@ -3,5 +3,7 @@ encoding: UTF-8
 collections:
   games:
     output: true
+  game-jams:
+    output: true
   persons:
     output: true
