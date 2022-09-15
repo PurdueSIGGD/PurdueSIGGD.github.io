@@ -2,7 +2,7 @@
 layout: game_entry
 title: Space Salvage
 dateRange: 2015-2015
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/salvage/splash.png
 sourceLink: https://github.com/PurdueSIGGD/SpaceSalvage
 gameLink: null
 tagline: Space Salvage is SIGGD's 2015 project involving survival, skill, and luck.

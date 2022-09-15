@@ -2,7 +2,7 @@
 layout: game_entry
 title: Killer Platform
 dateRange: 2014-2015
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/platform/title.png
 sourceLink: https://github.com/PurdueSIGGD/KillerPlatform
 gameLink: null
 tagline: Killer Platform is a small puzzle game where instead of being the player, you are the platform!

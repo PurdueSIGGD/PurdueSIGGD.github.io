@@ -2,7 +2,7 @@
 layout: game_entry
 title: Grappling Hook Fighters
 dateRange: 2016-2016
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/grapple/title.png
 sourceLink: https://github.com/PurdueSIGGD/GrapplingHookFighters
 gameLink: null
 tagline: Grappling Hook Fighters is a local multiplayer platformer game filled with action and quick thinking.

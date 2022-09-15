@@ -2,7 +2,7 @@
 layout: game_entry
 title: 20,000 Leagues Over the Sea
 dateRange: 2013-2014
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/space/space_thumb.png
 sourceLink: https://github.com/PurdueSIGGD/20000LeaguesOverTheSea
 gameLink: null
 tagline: Drawing from a wonderful mix between the earlier classics of Missile Defense and Asteroids, 20,000 Leagues Over the Sea revolves around using orbital mechanics to defend a planet from invading aliens.

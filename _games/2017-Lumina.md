@@ -2,7 +2,7 @@
 layout: game_entry
 title: Lumina
 dateRange: 2017-2017
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/lumina/LuminaLogo.png
 sourceLink: https://github.com/PurdueSIGGD/Lumina
 gameLink: null
 tagline: Lumina is SIGGD's first 3D Game, filled with exploring dungeons and surviving in the world!

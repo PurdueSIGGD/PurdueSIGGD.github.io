@@ -2,7 +2,7 @@
 layout: game_entry
 title: Animal Armies
 dateRange: 2013-2013
-imageLink: /img/projects/droneranger/Level1.png
+imageLink: /img/projects/animal/animal_thumb.png
 sourceLink: null
 gameLink: null
 tagline: A turn based strategy game with packs of animals fighting for survival on a battlefield of randomly generated terrain.
