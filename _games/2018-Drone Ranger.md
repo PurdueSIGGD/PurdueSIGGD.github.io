@@ -5,6 +5,7 @@ dateRange: 2018-2019
 imageLink: /img/projects/droneranger/Level1.png
 sourceLink: https://github.com/PurdueSIGGD/TheDroneRanger
 gameLink: null
+tagline: Drone Ranger is a sidescrolling third-person shooter, combining the best of sci-fi and the wild-west.
 ---
 <!--Put description here:-->
 The Drone Ranger was the Fall 2018-Spring 2019 game! It was challenging for us this year, as we were mostly new members of SIGGD, but we made a fun game that we're all proud of.

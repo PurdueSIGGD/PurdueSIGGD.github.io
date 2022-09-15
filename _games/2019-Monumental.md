@@ -5,6 +5,7 @@ dateRange: 2019-2020
 imageLink: /img/projects/monumental/MonumentalLogo.png
 sourceLink: https://github.com/PurdueSIGGD/Monumental
 gameLink: null
+tagline: Monumental is a top-down MOBA, where you compete with the other team for resources to create buffs and monuments to win.
 ---
 <!--Put description here:-->
 Monumental was the Fall 2019-Spring 2020 game! It was a rough year, as development was cut short during Spring of 2020 due to the pandemic, but we hope you enjoy what we made!
