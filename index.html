@@ -157,9 +157,6 @@ layout: default
 			<a href="{{ jam.url }}">
 				<h2>{{ jam.title }}</h2>
 			</a>
-			{% if jam.jamLink != null %}
-			<a href="{{ jam.jamLink }}">Jam page link</a>
-			{% endif %}
 			{% assign contentSize = jam.content | size %}
 			{% if jam.content contains '
 			<!--more-->' %}
