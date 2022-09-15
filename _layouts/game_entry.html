@@ -10,6 +10,10 @@ layout: default
             <h2>{{ page.title }}</h2>
         </a>
         <h5>{{ page.dateRange }}</h5>
+        <a href="{{ page.sourceLink }}">Download the source files here</a>
+        {% if page.gameLink != null %}
+        <a href="{{ page.gameLink }}">Download the game here</a>
+        {% endif %}
         {{ page.content }}
     </div>
 </div>
