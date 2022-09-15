@@ -1,7 +1,7 @@
 ---
 layout: game_jam
 title: SIGGD Game Jam 2021
-imageLink: /img/projects/plunderthesea/Combat1.png
+imageLink: /img/logos/siggd_icon_HD.png
 jamLink: null
 ---
 <!--Put description here:-->

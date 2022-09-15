@@ -1,7 +1,7 @@
 ---
 layout: game_jam
 title: Global Game Jam 2022
-imageLink: /img/projects/plunderthesea/Combat1.png
+imageLink: /img/logos/GGJLogo.png
 jamLink: https://globalgamejam.org/2022/jam-sites/purdue-siggd
 ---
 <!--Put description here:-->
