@@ -7,4 +7,8 @@ sourceLink: https://github.com/PurdueSIGGD/Monumental
 gameLink: null
 ---
 <!--Put description here:-->
-Multiplayer reasource management and building game. Be the first team of three to build three monuments to win!
+Monumental was the Fall 2019-Spring 2020 game! It was a rough year, as development was cut short during Spring of 2020 due to the pandemic, but we hope you enjoy what we made!
+
+You'll need to work with your team and fight to bring resources back to your boat. With enough resources, you can provide your team with permanent buffs and build monuments, with the first team to build 3 monuments winning the game!
+
+Collect! Fight! And build your way to victory in this exciting top-down MOBA!
