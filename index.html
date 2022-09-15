@@ -31,8 +31,8 @@ layout: default
 				href="/#games">game</a> each school year. As part of the Association for Computing Machinery Purdue
 			chapter,
 			we are the first SIGGD of ACM National. Our goal is to develop creative and interesting games. In addition,
-			we host a <a class="aInParagraph" style="white-space: nowrap;"
-			href="/#game_jams">game jam</a> (game development hackathon) each semester were groups come together either
+			we host a <a class="aInParagraph" style="white-space: nowrap;" href="/#game_jams">game jam</a> (game
+			development hackathon) each semester were groups come together either
 			online or in-person to create a video game prototype in 48 hours.
 		</p>
 		<br>
@@ -145,32 +145,32 @@ layout: default
 <div class="content_block">
 	<h3>Game Jams</h3>
 	<div class="anchor" id="game_jams"></div>
-	<h5>(<a href="/game_jams/">See list of all game jams</a>)</h5>
-	{% assign jams = {{site.game_jams | size }} %}
+	<h5>(<a href="/game-jams/">See list of all game jams</a>)</h5>
+	{% assign jams = {{site.game-jams | size }} %}
 	{% assign offsetNum = {{jams | minus: 2 }} %}
-	{% for game_jam in site.game_jams reversed offset:offsetNum %}
-	<div class="game">
+	{% for jam in site.game-jams reversed offset:offsetNum %}
+	<div class="jam">
 		<div style="width: 20%; float:left;">
-			<img alt="" src="{{ game.imageLink}}" style="width: 100%;">
+			<img alt="" src="{{ jam.imageLink}}" style="width: 100%;">
 		</div>
 		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
-			<a href="{{ game.url }}">
-				<h2>{{ game.title }}</h2>
+			<a href="{{ jam.url }}">
+				<h2>{{ jam.title }}</h2>
 			</a>
-			{% if game.jamLink != null %}
-			<a href="{{ game.jamLink }}">Jam page link</a>
+			{% if jam.jamLink != null %}
+			<a href="{{ jam.jamLink }}">Jam page link</a>
 			{% endif %}
-			{% assign contentSize = game.content | size %}
-			{% if game.content contains '
+			{% assign contentSize = jam.content | size %}
+			{% if jam.content contains '
 			<!--more-->' %}
-			{{ game.content | split:'
+			{{ jam.content | split:'
 			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
 			{% elsif contentSize > 512 %}
-			{{ game.content | truncate: 512 }}
-			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+			{{ jam.content | truncate: 512 }}
+			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
 			{% else %}
-			{{ game.content }}
+			{{ jam.content }}
 			{% endif %}
 		</div>
 	</div>
