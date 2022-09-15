@@ -1,6 +1,7 @@
 ---
 layout: game_jam
 title: SIGGD Game Jam 2022
+theme: TBA
 imageLink: /img/logos/siggdGameJam2022Banner.png
 jamLink: null
 ---
