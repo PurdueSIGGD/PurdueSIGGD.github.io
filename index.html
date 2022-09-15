@@ -154,9 +154,15 @@ layout: default
 			<img alt="" src="{{ jam.imageLink}}" style="width: 100%;">
 		</div>
 		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
+			{% if jam.jamLink != null %}
+			<a href="{{ jam.jamLink }}">
+				<h2>{{ jam.title }}</h2>
+			</a>
+			{$ else %}
 			<a href="{{ jam.url }}">
 				<h2>{{ jam.title }}</h2>
 			</a>
+			{% endif %}
 			{% assign contentSize = jam.content | size %}
 			{% if jam.content contains '
 			<!--more-->' %}
