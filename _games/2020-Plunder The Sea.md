@@ -5,7 +5,7 @@ dateRange: 2020-2021
 imageLink: /img/projects/plunderthesea/Title.png
 sourceLink: https://github.com/PurdueSIGGD/Plunder-the-Sea
 gameLink: https://drive.google.com/file/d/1PBoHv1jDrXvbmjHgiilQhaYf5E64lKeh/view?usp=sharing
-tagline: Plunder the Sea is a dungeon crawler where you defeat enemies to gain bait used to catch fish, which helps you grow stronger.
+tagline: Procedurally generated dungeon crawler + fishing game + rhythm game. Fish to fight, and fight to fish!
 ---
 <!--Put description here:-->
 Plunder the Sea was the Fall 2020-Spring 2021 game! With the pandemic going on during this year, we developed the game almost entirely remotely, but we ended up creating an exciting game with lots of surprise.
