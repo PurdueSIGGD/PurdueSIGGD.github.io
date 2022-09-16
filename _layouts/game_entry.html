@@ -9,13 +9,11 @@ layout: default
         <a href="{{ page.url }}">
             <h2>{{ page.title }} ({{ page.dateRange }})</h2>
         </a>
-        <h5>
-            {% if page.gameLink != null %}
+        {% if page.gameLink != null %}
             <a class=aInParagraph href="{{ page.gameLink }}">Download</a>
             <br>
             {% endif %}
             <a class=aInParagraph href="{{ page.sourceLink }}">Github Repo</a>
-            {{ page.content }}
-        </h5>
+        {{ page.content }}
     </div>
 </div>
