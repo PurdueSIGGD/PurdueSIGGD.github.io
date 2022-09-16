@@ -59,23 +59,25 @@ layout: default
 		</div>
 		<div style="width: 60%; float:left; padding: 2%; padding-top: 1%;">
 			<a href="{{ game.url }}">
-				<h2>{{ game.title }}</h2>
+				<h2>{{ game.title }} ({{ game.dateRange }})</h2>
 			</a>
-			<h5>{{ game.dateRange }}</h5>
 			{{ game.tagline }}
 			<br>
-			{% assign contentSize = game.content | size %}
-			{% if game.content contains '
-			<!--more-->' %}
-			{{ game.content | split:'
-			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% elsif contentSize > 256 %}
-			{{ game.content | truncate: 256 }}
-			<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
-			{% else %}
-			{{ game.content }}
-			{% endif %}
+			<br>
+			<h5>
+				{% assign contentSize = game.content | size %}
+				{% if game.content contains '
+				<!--more-->' %}
+				{{ game.content | split:'
+				<!--more-->' | first }}
+				<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+				{% elsif contentSize > 256 %}
+				{{ game.content | truncate: 256 }}
+				<br /><br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+				{% else %}
+				{{ game.content }}
+				{% endif %}
+			</h5>
 		</div>
 	</div>
 	{% endfor %}
