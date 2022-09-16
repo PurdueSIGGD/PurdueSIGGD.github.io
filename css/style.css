@@ -63,6 +63,7 @@ html {
 #main {
   width: 100%;
   background: white;
+  overflow: hidden;
 }
 
 /*For page scrolling*/
