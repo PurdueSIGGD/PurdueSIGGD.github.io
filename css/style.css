@@ -185,6 +185,7 @@ footer {
   text-align: center;
   color: white;
   background: black;
+  height: calc(14vh + 20px);
 }
 
 footer ol {
@@ -193,8 +194,9 @@ footer ol {
 }
 
 footer img {
-  width: 5%;
-  padding: 1%;
+  height: 8vh;
+  padding: 1vh;
+  padding-top: 2vh;
 }
 
 .footerCentered {
