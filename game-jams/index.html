@@ -24,10 +24,10 @@ layout: default
 			<!--more-->' %}
 			{{ jam.content | split:'
 			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
+			<i><a href="{{ jam.url }}">(Click here to read more)</a></i>
 			{% elsif contentSize > 512 %}
 			{{ jam.content | truncate: 512 }}
-			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
+			<i><a href="{{ jam.url }}">(Click here to read more)</a></i>
 			{% else %}
 			{{ jam.content }}
 			{% endif %}

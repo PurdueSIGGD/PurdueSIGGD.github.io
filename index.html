@@ -69,10 +69,10 @@ layout: default
 				<!--more-->' %}
 				{{ game.content | split:'
 				<!--more-->' | first }}
-				<br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+				<i><a href="{{ game.url }}">(Click here to read more)</a></i>
 				{% elsif contentSize > 256 %}
 				{{ game.content | truncate: 256 }}
-				<br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+				<i><a href="{{ game.url }}">(Click here to read more)</a></i>
 				{% else %}
 				{{ game.content }}
 				{% endif %}
@@ -107,10 +107,10 @@ layout: default
 			<!--more-->' %}
 			{{ person.content | split:'
 			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			<i><a href="{{ person.url }}">(Click here to read more)</a></i>
 			{% elsif contentSize > 512 %}
 			{{ person.content | truncate: 512 }}
-			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			<i><a href="{{ person.url }}">(Click here to read more)</a></i>
 			{% else %}
 			{{ person.content }}
 			{% endif %}
@@ -126,10 +126,10 @@ layout: default
 			<!--more-->' %}
 			{{ person.content | split:'
 			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			<i><a href="{{ person.url }}">(Click here to read more)</a></i>
 			{% elsif contentSize > 512 %}
 			{{ person.content | truncate: 512 }}
-			<br /><br /><i><a href="{{ person.url }}">Click here to read more..</a></i>
+			<i><a href="{{ person.url }}">(Click here to read more)</a></i>
 			{% else %}
 			{{ person.content }}
 			{% endif %}
@@ -171,10 +171,10 @@ layout: default
 			<!--more-->' %}
 			{{ jam.content | split:'
 			<!--more-->' | first }}
-			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
+			<i><a href="{{ jam.url }}">(Click here to read more)</a></i>
 			{% elsif contentSize > 512 %}
 			{{ jam.content | truncate: 512 }}
-			<br /><br /><i><a href="{{ jam.url }}">Click here to read more..</a></i>
+			<i><a href="{{ jam.url }}">(Click here to read more)</a></i>
 			{% else %}
 			{{ jam.content }}
 			{% endif %}
