@@ -21,10 +21,10 @@ layout: default
         <!--more-->' %}
         {{ game.content | split:'
         <!--more-->' | first }}
-        <br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+        <i><a href="{{ game.url }}">(Click here to read more)</a></i>
         {% elsif contentSize > 256 %}
         {{ game.content | truncate: 256 }}
-        <br /><i><a href="{{ game.url }}">Click here to read more..</a></i>
+        <i><a href="{{ game.url }}">(Click here to read more)</a></i>
         {% else %}
         {{ game.content }}
         {% endif %}
