@@ -9,6 +9,9 @@ layout: default
         <a href="{{ page.url }}">
             <h2>{{ page.title }}</h2>
         </a>
+        {% if page.members != null %}
+        Created by: {{ page.members }}
+        {% endif %}
         {% if page.gameLink != null %}
         <a class=aInParagraph href="{{ page.gameLink }}">Download</a>
         <br>
