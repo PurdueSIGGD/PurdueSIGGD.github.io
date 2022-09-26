@@ -7,4 +7,4 @@ driveLink: https://drive.google.com/drive/folders/1g2pcSAPYIsZkBUUeJpUw3UBVF9tfE
 jamLink: null
 ---
 <!--Put description here:-->
-SIGGD's self-organaized game jam is back! Make a game in a group or solo within a 48 hour period from September 23rd 2022 at 7pm to 7pm on the 25th. This jam ended up being our largest ever, with 10 games made and 30 participents.
+SIGGD's self-organaized game jam is back! Make a game in a group or solo within a 48 hour period from September 23rd 2022 at 7pm to 7pm on the 25th. This jam ended up being our largest ever, with 10 games made and 25 participents.
