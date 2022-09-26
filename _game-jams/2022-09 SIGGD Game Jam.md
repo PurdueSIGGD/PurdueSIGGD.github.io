@@ -1,8 +1,9 @@
 ---
 layout: game_jam
 title: SIGGD Game Jam 2022
-theme: TBA
+theme: Start Small
 imageLink: /img/logos/siggdGameJam2022Banner.png
+driveLink: https://drive.google.com/drive/folders/1g2pcSAPYIsZkBUUeJpUw3UBVF9tfENlb?usp=sharing
 jamLink: null
 ---
 <!--Put description here:-->
