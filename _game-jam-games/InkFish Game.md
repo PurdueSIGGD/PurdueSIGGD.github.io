@@ -2,6 +2,7 @@
 layout: game_jam_game
 title: InkFish Game
 gameLink: https://drive.google.com/file/d/14jj7Q8zSo58ObmUkCjbX2_E76maV5r73/view?usp=sharing
+gameLinkMac: null
 jamName: SIGGD Game Jam 2022
 imageLink: /img/gamejams/siggdJam2022/InkFish.png
 members: Connor Behrend, Annie Hwang, Christine Yuan, and Karen Zheng

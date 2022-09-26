@@ -13,7 +13,7 @@ layout: default
 		<a class=aInParagraph href="{{ page.jamLink }}">Jam page link</a>
 		{% endif %}
 		{% if page.driveLink != null %}
-		<a class=aInParagraph href="{{ page.driveLink }}">Game downloads</a>
+		<a class=aInParagraph href="{{ page.driveLink }}">All game downloads</a>
 		{% endif %}
 		{{ page.content }}
 	</div>
@@ -33,7 +33,11 @@ layout: default
 			<br>
 			{% endif %}
 			{% if jamGame.gameLink != null %}
-			<a class=aInParagraph href="{{ page.gameLink }}">Download</a>
+			<a class=aInParagraph href="{{ jamGame.gameLink }}">Windows Download</a>
+			<br>
+			{% endif %}
+			{% if jamGame.gameLinkMac != null %}
+			<a class=aInParagraph href="{{ jamGame.gameLinkMac }}">Mac Download</a>
 			<br>
 			{% endif %}
 			{% assign contentSize = jamGame.content | size %}

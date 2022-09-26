@@ -17,6 +17,10 @@ layout: default
         <a class=aInParagraph href="{{ page.gameLink }}">Download</a>
         <br>
         {% endif %}
+        {% if page.gameLinkMac != null %}
+			<a class=aInParagraph href="{{ page.gameLinkMac }}">Mac Download</a>
+			<br>
+			{% endif %}
         {{ page.content }}
     </div>
 </div>

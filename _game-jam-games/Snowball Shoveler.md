@@ -2,6 +2,7 @@
 layout: game_jam_game
 title: Snowball Shoveler
 gameLink: https://drive.google.com/file/d/1d3hONxlZQczcns1WpPNCNSXfPg_0jgc7/view?usp=sharing
+gameLinkMac: https://drive.google.com/file/d/1lB8kt8tVlLwDgxfRNymRVtcewQkmVPw3/view?usp=sharing
 jamName: SIGGD Game Jam 2022
 imageLink: /img/gamejams/siggdJam2022/SnowballShoveler.png
 members: William Hou, Sebastian Herrera, and Nikhil V
