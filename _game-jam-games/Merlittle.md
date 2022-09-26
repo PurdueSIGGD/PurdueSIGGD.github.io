@@ -2,6 +2,7 @@
 layout: game_jam_game
 title: Merlittle
 gameLink: https://drive.google.com/file/d/1KMYDYlyC0WXz_UwTytsxF87T08vUuoTn/view?usp=sharing
+gameLinkMac: null
 jamName: SIGGD Game Jam 2022
 imageLink: null
 members: Andrew Hanlon, Jared Brown, Nathan Whitacre, Quan Dinh, and Wallace Gazaway

@@ -2,6 +2,7 @@
 layout: game_jam_game
 title: Squad of One
 gameLink: https://drive.google.com/file/d/1Fv-4ylgnC5kFaimm_tFYnFCWNCdExRgm/view?usp=sharing
+gameLinkMac: null
 jamName: SIGGD Game Jam 2022
 imageLink: /img/gamejams/siggdJam2022/SquadofOne.png
 members: Ansh Agrawal, Sam Schafer, and Patrick Zong
