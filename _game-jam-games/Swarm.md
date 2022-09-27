@@ -8,7 +8,4 @@ imageLink: /img/gamejams/siggdJam2022/Swarm.PNG
 members: Andrew Choi
 ---
 <!--Put description here:-->
-Arcade shooter. Survive as long as you can. Kill enemies to grow your army.
-WASD = Movement
-Space = Screen Nuke
-Mouse = Point and Shoot
+Arcade shooter. Survive as long as you can. Kill enemies to grow your army. WASD = Movement, Space = Screen Nuke, Mouse = Point and Shoot.
