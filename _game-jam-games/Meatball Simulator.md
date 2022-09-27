@@ -4,7 +4,7 @@ title: Meatball Simulator
 gameLink: https://drive.google.com/file/d/14HxI33uG2JBkQJrbFDsiIEaIFIECLJOG/view?usp=sharing
 gameLinkMac: null
 jamName: SIGGD Game Jam 2022
-imageLink: /img/gamejams/siggdJam2022/meatball.PNG
+imageLink: /img/gamejams/siggdJam2022/meatball.png
 members: Chandler Pilipis
 ---
 <!--Put description here:-->
