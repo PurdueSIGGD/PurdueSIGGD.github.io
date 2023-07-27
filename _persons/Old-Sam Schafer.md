@@ -3,7 +3,7 @@ layout: person_entry
 title: Sam Schafer
 role: President and Audio Lead
 startYear: 2020
-endYear: Present
+endYear: 2023
 imageLink: /img/people/sam.png
 ---
 <!--Put description here:-->

@@ -3,7 +3,7 @@ layout: person_entry
 title: Nicole Tomaszewski
 role: Art Lead
 startYear: 2022
-endYear: Present
+endYear: 2023
 imageLink: /img/people/nicole.jpg
 ---
 <!--Put description here:-->

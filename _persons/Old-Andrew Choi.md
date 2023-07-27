@@ -3,7 +3,7 @@ layout: person_entry
 title: Andrew Choi
 role: Design Lead and Programming Lead
 startYear: 2021
-endYear: Present
+endYear: 2023
 imageLink: /img/people/andrew.jfif
 ---
 <!--Put description here:-->
