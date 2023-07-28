@@ -1,6 +1,6 @@
 ---
 layout: person_entry
-title: Andy Sharpe
+title: Ivan Yang
 role: Vice President
 startYear: 2022
 endYear: Present
