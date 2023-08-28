@@ -4,6 +4,6 @@ title: Ivan Yang
 role: Vice President
 startYear: 2022
 endYear: Present
-imageLink: /img/people/blank.png
+imageLink: /img/people/Ivan.jpg
 ---
 <!--Put description here:-->

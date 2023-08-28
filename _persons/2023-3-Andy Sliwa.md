@@ -4,6 +4,6 @@ title: Andy Sliwa
 role: Art Lead
 startYear: 2022
 endYear: Present
-imageLink: /img/people/blank.png
+imageLink: /img/people/AndySilwa.jpg
 ---
 <!--Put description here:-->
