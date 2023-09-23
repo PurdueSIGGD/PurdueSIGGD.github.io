@@ -5,7 +5,7 @@ gameLink: https://drive.google.com/file/d/1ueMwCM-b4p6UB_peUzsMDyuU2LxH6LYY/view
 gameLinkMac: null
 jamName: SIGGD Game Jam 2023
 imageLink: /img/gamejams/september2023/Antfield.png
-members: Oliver
+members: Oliver Long, Ethan Dawes, Sam Shafer, Nicole Tomaszewski, Tyler Hsieh, Sara Xiao
 ---
 <!--Put description here:-->
 Run around collecting ants to build bridges and defeat the spiders!
