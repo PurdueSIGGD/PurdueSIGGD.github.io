@@ -1,10 +1,10 @@
 ---
 layout: person_entry
-title: Nathan Whitacre
-role: Design Lead
+title: Jacob Aldridge
+role: Audio Lead
 startYear: 2022
 endYear: Present
-imageLink: /img/people/Nathan.jpg
+imageLink: /img/people/Jacob.jpg
 ---
 
 <!--Put description here:-->
