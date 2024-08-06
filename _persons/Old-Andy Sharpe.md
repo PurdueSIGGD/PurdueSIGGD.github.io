@@ -3,7 +3,7 @@ layout: person_entry
 title: Andy Sharpe
 role: President
 startYear: 2020
-endYear: Present
+endYear: 2024
 imageLink: /img/people/andy.jfif
 ---
 
