@@ -4,7 +4,7 @@ title: Ansh Agrawal
 role: Programming Lead
 startYear: 2023
 endYear: Present
-imageLink: /img/people/AndySilwa.jpg
+imageLink: /img/people/Ansh.jpg
 ---
 
 <!--Put description here:-->

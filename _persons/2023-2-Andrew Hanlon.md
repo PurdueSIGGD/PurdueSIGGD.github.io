@@ -4,7 +4,7 @@ title: Andrew Hanlon
 role: Vice President
 startYear: 2022
 endYear: Present
-imageLink: /img/people/no-image.webp
+imageLink: /img/people/Andrew.jpg
 ---
 
 <!--Put description here:-->
