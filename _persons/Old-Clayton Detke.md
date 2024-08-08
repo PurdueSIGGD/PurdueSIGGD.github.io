@@ -1,9 +1,0 @@
----
-layout: person_entry
-title: Clayton Detke
-role: President
-startYear: 2018
-endYear: 2020
-imageLink: /img/people/blank.png
----
-<!--Put description here:-->
