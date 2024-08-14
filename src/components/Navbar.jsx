@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/img/logos/SIGGD_logo_text_final.png'
 import { navItems } from '../constants'
 import { useState } from 'react'
-import { Menu, X } from "lucide-react"
+import { Menu, X } from 'lucide-react'
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -43,14 +43,14 @@ const Navbar = () => {
             {mobileDrawerOpen && (
                 <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
                     <ul>
-                        {navItems.map((item, index) => {
-                            <li key={item.index} className='py-4'>
-                                <a href={item.href}> {item.label} </a>
+                        {navItems.map((item, index) => (
+                            <li key={index} className='py-4'>
+                                <a href={item.href}>{item.label}</a>
                             </li>
-                        })}
+                        ))}
                     </ul>
                     <div className="flex space-x-6">
-                        <a href='#' className='py-2 px-3 border rounded-md'> Discord 0</a>
+                        <a href='#' className='py-2 px-3 border rounded-md'> Discord </a>
                     </div>
                 </div>
             )}

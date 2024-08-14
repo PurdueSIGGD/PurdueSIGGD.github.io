@@ -1,8 +1,7 @@
-# React + Vite
+# SIGGD Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is responsible for the static SIGGD website using GitHub pages. The website uses React + Vite frontend framework and is stylized using Tailwind CSS (removes the need for most CSS files).
 
-Currently, two official plugins are available:
+# Updating Website Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To update website details, modifiy values in the `src/constants` directory accordingly.
