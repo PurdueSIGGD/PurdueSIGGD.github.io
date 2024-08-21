@@ -5,12 +5,16 @@ import { officers } from '../constants'
 const Officers = () => {
     return(
         <>
-        <div className='flex flex-row flex-wrap justify-center w-9/12 mx-auto gap-5'>
-            {officers.map((item, index) => (
-                <OfficerCard officer={item} />
-            ))}
+        <div id='officers'>
+            <h1 className="pt-20 my-5 text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+                Officers
+            </h1>
+            <div className='flex flex-row flex-wrap justify-center w-9/12 mx-auto gap-5'>
+                {officers.map((item, index) => (
+                    <OfficerCard officer={item} />
+                ))}
+            </div>
         </div>
-        
         </>
     )
 }

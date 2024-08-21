@@ -8,10 +8,10 @@ import NoImg from '../assets/img/people/no-image.webp'
 
 
 export const navItems = [
-    { label: "About Us", href: "#" },
-    { label: "Games", href: "#"},
-    { label: "Officers", href: "#"},
-    { label: "Game Jams", href: "#"},
+    { label: "About Us", href: "aboutus" },
+    { label: "Games", href: "games"},
+    { label: "Officers", href: "officers"},
+    { label: "Game Jams", href: "gamejams"},
 ]
 
 export const officers = [
