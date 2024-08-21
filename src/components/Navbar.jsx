@@ -48,7 +48,7 @@ const Navbar = () => {
                     <ul>
                         {navItems.map((item, index) => (
                             <li key={index} className='py-1'>
-                                <a href={item.href}>{item.label}</a>
+                                <Link className='active:text-red-700' activeClass='active' smooth spy to={item.href}>{item.label}</Link>
                             </li>
                         ))}
                     </ul>
