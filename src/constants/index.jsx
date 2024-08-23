@@ -6,7 +6,7 @@ import JacobImg from '../assets/img/people/Jacob.jpg'
 
 import NoImg from '../assets/img/people/no-image.webp'
 
-export const discordLink = 'https://discord.gg/GudC3mFr8n'
+export const discordLink = 'https://discord.gg/qwm3Y8QBPU'
 
 export const navItems = [
     { label: "About Us", href: "aboutus" },
