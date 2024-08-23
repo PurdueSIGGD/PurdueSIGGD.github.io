@@ -6,5 +6,7 @@ startYear: 2022
 endYear: Present
 imageLink: /img/people/Nathan.jpg
 ---
+
 <!--Put description here:-->
-Nathan is a second-year Computer Science major with an interest in software engineering and graphic design. This is his second year in SIGGD and first year as Design Lead. Beyond his love of playing and making video games, he also enjoys road biking and hiking, and has a passion for learning the Spanish language.
+
+Nathan is a third-year Purdue student majoring in Computer Science and minoring in Spanish Language and Culture. This is his third year with SIGGD and his second year as Design Lead. When he's not jotting down paper designs or coding his next project, you can find him bouldering at the Corec or practicing his Spanish at the Latino Cultural Center. Some of his favorite video games include Overwatch, The Last of Us, and Celeste.
