@@ -29,7 +29,7 @@ const OfficerCard = (props) => {
               <img className='object-cover rounded-full w-40 h-40 self-center border-4 border-white' src={props.officer.img} />
           </div>
           
-          <div className='leading-tight bg-black p-5 rounded-b-lg w-full'> 
+          <div className='leading-tight bg-black p-5 rounded-b-lg w-full h-full'> 
               {props.officer.description}
           </div>
       </div>
