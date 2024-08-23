@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/img/logos/SIGGD_logo_text_final.png'
-import { navItems } from '../constants'
+import { navItems, discordLink } from '../constants'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Link } from 'react-scroll'
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hidden lg:flex justify-center space-x12 items-center">
-                    <a href='#' className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
+                    <a href={discordLink} className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
                 </div>
 
                 <div className="lg:hidden md:flex flex-col justify-end">
@@ -53,7 +53,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="flex space-x-6">
-                        <a href='#' className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
+                        <a href={discordLink} className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
                     </div>
                 </div>
             )}
