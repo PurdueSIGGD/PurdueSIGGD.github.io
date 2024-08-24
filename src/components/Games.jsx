@@ -21,7 +21,7 @@ const GameCard = (props) => {
     return  (
         <>
         <div className='flex flex-row flex-wrap lg:flex-nowrap gap-5 m-10 justify-center lg:justify-start'>
-            <img className='w-60 object-cover rounded-xl' src={props.game.img}/>
+            <img className='w-80 object-cover rounded-xl' src={props.game.img}/>
 
             <div>
                 <p>{props.game.name}</p>
