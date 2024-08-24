@@ -2,13 +2,19 @@ import React from 'react'
 import { games } from '../constants'
 
 const Games = () => {
-  return (
-    <>
-    {games.map((item, index) => (
-        <GameCard game={item} />
-    ))}
-    </>
-  )
+    return (
+        <>
+        <div id='games'>
+            <h1 className="pt-20 my-5 text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+                Games
+            </h1>
+            {games.map((item, index) => (
+                <GameCard game={item} />
+            ))}
+        </div>
+        
+        </>
+    )
 }
 
 const GameCard = (props) => {

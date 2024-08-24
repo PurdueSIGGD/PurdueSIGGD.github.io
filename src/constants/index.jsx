@@ -7,6 +7,8 @@ import JacobImg from '../assets/img/people/Jacob.jpg'
 import NoImg from '../assets/img/people/no-image.webp'
 
 import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
+import SightVinesGameImg from '../assets/img/siggdgames/SightVines.png'
+import PlunderTheSeaGameImg from '../assets/img/siggdgames/PlunderTheSea.png'
 
 export const discordLink = 'https://discord.gg/qwm3Y8QBPU'
 
@@ -75,5 +77,19 @@ export const games = [
         description: "In the aftermath of a science experiment gone wrong, do your best to avoid enemies and escape the complex in this procedurally generated stealth game. A third person dungeon crawling stealth game. This is the first SIGGD game to include a story and voice acting! ",
         download: "https://drive.google.com/file/d/1JRGWIvUz0XN6MvT_H7uPHJaAozMGp61q/view?usp=share_link",
         github: "https://github.com/PurdueSIGGD/SIGGD-game-2022",
-    }
+    },
+    {
+        name: "Sight-Vines",
+        img: SightVinesGameImg,
+        description: "Use stealth mechanics and items to fight enemies in this boss-fighting game. A top-down stealth boss-fighting game. Sneak through hidden paths, find equipment, and plan your attacks carefully!",
+        download: "https://drive.google.com/file/d/14WcEJ18FGlzzU22Je3fF82CX1GSI5gLM/view?usp=sharing",
+        github: "https://github.com/PurdueSIGGD/SIGGD-game-2021",
+    },
+    {
+        name: "Plunder The Sea",
+        img: PlunderTheSeaGameImg,
+        description: "Procedurally generated dungeon crawler + fishing game + rhythm game. Fish to fight, and fight to fish! Unfortunately, thanks to the pandemic, game was developed almost entirely remotely, but we ended up creating an exciting game with lots of surprise.",
+        download: "https://drive.google.com/file/d/1PBoHv1jDrXvbmjHgiilQhaYf5E64lKeh/view?usp=sharing",
+        github: "https://github.com/PurdueSIGGD/Plunder-the-Sea",
+    },
 ]
