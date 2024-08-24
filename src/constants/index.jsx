@@ -6,7 +6,7 @@ import JacobImg from '../assets/img/people/Jacob.jpg'
 
 import NoImg from '../assets/img/people/no-image.webp'
 
-import VyronovGameImg from '../assets/img/projects/vyronov/mainRoom.png'
+import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
 
 export const discordLink = 'https://discord.gg/qwm3Y8QBPU'
 
