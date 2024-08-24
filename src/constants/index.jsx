@@ -6,6 +6,8 @@ import JacobImg from '../assets/img/people/Jacob.jpg'
 
 import NoImg from '../assets/img/people/no-image.webp'
 
+import VyronovGameImg from '../assets/img/projects/vyronov/mainRoom.png'
+
 export const discordLink = 'https://discord.gg/qwm3Y8QBPU'
 
 export const navItems = [
@@ -64,4 +66,14 @@ export const officers = [
         img: JacobImg,
         description: "Jacob is a senior studying Computer Science with concentrations in Graphics, Systems Software, and Algorithmic foundations. This is his fourth year in SIGGD and his first year as Audio Lead. He enjoys drawing and making music and is getting minors in both of those areas. Of course, he also loves to play video games."
     },
+]
+
+export const games = [
+    {
+        name: "The Vyronov Effect",
+        img: VyronovGameImg,
+        description: "In the aftermath of a science experiment gone wrong, do your best to avoid enemies and escape the complex in this procedurally generated stealth game. A third person dungeon crawling stealth game. This is the first SIGGD game to include a story and voice acting! ",
+        download: "https://drive.google.com/file/d/1JRGWIvUz0XN6MvT_H7uPHJaAozMGp61q/view?usp=share_link",
+        github: "https://github.com/PurdueSIGGD/SIGGD-game-2022",
+    }
 ]
