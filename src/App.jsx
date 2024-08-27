@@ -4,6 +4,7 @@ import Officers from './components/Officers'
 import HeroSection from './components/HeroSection'
 import Games from './components/Games'
 import Footer from './components/Footer'
+import AboutUs from './components/AboutUs'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <AboutUs />
       <Games />
       <Officers />
       <Footer />

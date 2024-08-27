@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='flex flex-row items-center gap-5'>
                 {footerIcons.map((item, index) => (
                     <a href={item.link} target='_blank'>
-                        <img src={item.img}  className='h-16 object-cover' /> 
+                        <img src={item.img}  className='h-10 lg:h-16 object-cover' /> 
                     </a>
                 ))}
             </div>
@@ -18,7 +18,6 @@ const Footer = () => {
                 <Copyright className='size-4 pb-0.5' /> 
                 <p> Purdue SIGGD 2024 </p>
             </div>
-
         </div>
         </>
     )
