@@ -10,7 +10,15 @@ import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
 import SightVinesGameImg from '../assets/img/siggdgames/SightVines.png'
 import PlunderTheSeaGameImg from '../assets/img/siggdgames/PlunderTheSea.png'
 
-export const discordLink = 'https://discord.gg/qwm3Y8QBPU'
+import GitHubLogo from '../assets/img/logos/GitHub-Mark-Light-120px-plus.png'
+import ACMLogo from '../assets/img/logos/ACMLogo.png'
+import PurdueCSLogo from '../assets/img/logos/purdueCS.jpg'
+import DiscordLogo from '../assets/img/logos/discordLogo.svg'
+
+export const githubLink = 'https://github.com/PurdueSIGGD'
+export const purdueCSLink = 'https://www.cs.purdue.edu/'
+export const acmLink = 'https://acm.cs.purdue.edu/'
+export const discordLink = 'https://discord.gg/qwm3Y8QBPU' 
 
 export const navItems = [
     { label: "About Us", href: "aboutus" },
@@ -91,5 +99,24 @@ export const games = [
         description: "Procedurally generated dungeon crawler + fishing game + rhythm game. Fish to fight, and fight to fish! Unfortunately, thanks to the pandemic, game was developed almost entirely remotely, but we ended up creating an exciting game with lots of surprise.",
         download: "https://drive.google.com/file/d/1PBoHv1jDrXvbmjHgiilQhaYf5E64lKeh/view?usp=sharing",
         github: "https://github.com/PurdueSIGGD/Plunder-the-Sea",
+    },
+]
+
+export const footerIcons = [
+    {
+        link: githubLink,
+        img: GitHubLogo,
+    },
+    {
+        link: acmLink,
+        img: ACMLogo,
+    },
+    {
+        link: purdueCSLink,
+        img: PurdueCSLogo,
+    },
+    {
+        link: discordLink ,
+        img: DiscordLogo,
     },
 ]

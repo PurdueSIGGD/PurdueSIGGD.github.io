@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Officers from './components/Officers'
 import HeroSection from './components/HeroSection'
 import Games from './components/Games'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <Games />
       <Officers />
+      <Footer />
     </>
   )
 }
