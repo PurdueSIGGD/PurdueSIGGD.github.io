@@ -7,7 +7,7 @@ import { discordLink } from '../constants'
 const HeroSection = () => {
   return (
     <>
-    <div id='hero' className='h-screen w-screen relative'>
+    <div id='hero' className='h-screen w-screen relative overflow-hidden'>
         <img className='opacity-25 w-full h-full object-cover' src={background} />
 
         <div className='absolute hidden lg:flex flex-col top-0 w-full h-full justify-center items-start ml-20'>

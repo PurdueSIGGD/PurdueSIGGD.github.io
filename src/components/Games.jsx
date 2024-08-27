@@ -4,7 +4,7 @@ import { games } from '../constants'
 const Games = () => {
     return (
         <>
-        <div id='games'>
+        <div id='games' className='overflow-hidden'>
             <h1 className="pt-20 my-5 text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
                 Games
             </h1>

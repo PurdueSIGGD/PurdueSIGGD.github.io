@@ -24,16 +24,18 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                <ul className='hidden lg:flex space-x-12'>
-                    {navItems.map((item, index) => (
-                        <li key={index}>
-                            <Link className='hover:text-red-700' activeClass='active' smooth spy to={item.href}>{item.label}</Link>
-                        </li>
-                    ))}
-                </ul>
+                <div className='flex flex-row'>
+                    <ul className='hidden lg:flex space-x-12 items-center'>
+                        {navItems.map((item, index) => (
+                            <li key={index}>
+                                <Link className='hover:text-red-500 text-lg font-bold' activeClass='active' smooth spy to={item.href}>{item.label}</Link>
+                            </li>
+                        ))}
 
-                <div className="hidden lg:flex justify-center space-x12 items-center">
-                    <a href={discordLink} className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
+                        <li className='hidden lg:flex justify-center space-x-12 items-center text-lg font-bold'>
+                            <a href={discordLink} className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div className="lg:hidden md:flex flex-col justify-end">
@@ -47,13 +49,13 @@ const Navbar = () => {
                 <div className="fixed right-0 z-20 bg-neutral-900 mt-3 p-6 flex flex-col justify-center items-center lg:hidden rounded-md">
                     <ul>
                         {navItems.map((item, index) => (
-                            <li key={index} className='py-1'>
-                                <Link className='active:text-red-700' activeClass='active' smooth spy to={item.href}>{item.label}</Link>
+                            <li key={index} className='py-2'>
+                                <Link className='font-bold active:text-red-500' activeClass='active' smooth spy to={item.href}>{item.label}</Link>
                             </li>
                         ))}
                     </ul>
                     <div className="flex space-x-6">
-                        <a href={discordLink} className='py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
+                        <a href={discordLink} className='font-bold py-2 px-3 border rounded-md bg-indigo-700'> Discord </a>
                     </div>
                 </div>
             )}

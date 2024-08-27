@@ -5,7 +5,7 @@ import { footerIcons } from '../constants'
 const Footer = () => {
     return(
         <>
-        <div className='bg-black w-screen flex flex-col items-center gap-3 py-5'>
+        <div className='bg-black w-screen flex flex-col items-center gap-3 py-5 overflow-hidden'>
             <div className='flex flex-row items-center gap-5'>
                 {footerIcons.map((item, index) => (
                     <a href={item.link} target='_blank'>
