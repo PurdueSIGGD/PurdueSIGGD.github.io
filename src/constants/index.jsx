@@ -9,6 +9,7 @@ import NoImg from '../assets/img/people/no-image.webp'
 import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
 import SightVinesGameImg from '../assets/img/siggdgames/SightVines.png'
 import PlunderTheSeaGameImg from '../assets/img/siggdgames/PlunderTheSea.png'
+import NamelessThingsGameImg from '../assets/img/siggdgames/NamelessThings.png'
 
 import GitHubLogo from '../assets/img/logos/GitHub-Mark-Light-120px-plus.png'
 import ACMLogo from '../assets/img/logos/ACMLogo.png'
@@ -78,6 +79,13 @@ export const officers = [
 ]
 
 export const games = [
+    {
+        name: "Nameless Things",
+        img: NamelessThingsGameImg,
+        description: "When a deep-sea asset recovery mission goes terribly wrong, you are left stranded at the bottom of the ocean with only your glowing exo-suit to light your way. Equipped with a growing arsenal of robotic defenders, you must battle through waves of mutated ocean creatures to escape this action-packed underwater nightmare.",
+        download: "https://drive.google.com/file/d/1iEwiljSnc4jQNggTWgvC-MRz7zu_xbUJ/view?usp=sharing",
+        github: "https://github.com/PurdueSIGGD/SIGGD-Game-2023",
+    },
     {
         name: "The Vyronov Effect",
         img: VyronovGameImg,
