@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div className='flex flex-row items-center'>
                 <Copyright className='size-4 pb-0.5' /> 
-                <p> Purdue SIGGD 2024 </p>
+                <p> Purdue SIGGD 2025 </p>
             </div>
         </div>
         </>
