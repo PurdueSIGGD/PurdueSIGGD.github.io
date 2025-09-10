@@ -1,9 +1,9 @@
 import AayushImg from '../assets/img/people/Aayush.jpg'
 import AndrewImg from '../assets/img/people/Andrew.jpg'
-import SimonImg  from '../assets/img/people/Simon.jpg'
+import SimonImg  from '../assets/img/people/simon.jpg'
 import NathanImg from '../assets/img/people/Nathan.jpg'
 import HarryImg from '../assets/img/people/Harry.jpg'
-import JakeImg from '..//assets/img/people/Jake.jpg'
+import JakeImg from '..//assets/img/people/Jake.png'
 
 import NoImg from '../assets/img/people/no-image.webp'
 
