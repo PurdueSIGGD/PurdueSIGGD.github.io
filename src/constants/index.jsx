@@ -1,8 +1,9 @@
-import IvanImg from '../assets/img/people/Ivan.jpg'
+import AayushImg from '../assets/img/people/Aayush.jpg'
 import AndrewImg from '../assets/img/people/Andrew.jpg'
-import AnshImg from '../assets/img/people/Ansh.jpg'
+import SimonImg  from '../assets/img/people/Simon.jpg'
 import NathanImg from '../assets/img/people/Nathan.jpg'
 import HarryImg from '../assets/img/people/Harry.jpg'
+import JakeImg from '..//assets/img/people/Jake.jpg'
 
 import NoImg from '../assets/img/people/no-image.webp'
 
@@ -10,6 +11,7 @@ import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
 import SightVinesGameImg from '../assets/img/siggdgames/SightVines.png'
 import PlunderTheSeaGameImg from '../assets/img/siggdgames/PlunderTheSea.png'
 import NamelessThingsGameImg from '../assets/img/siggdgames/NamelessThings.png'
+import EchoesLegacyGameImg from '../assets/img/siggdgames/EchoesLegacy.png'
 
 import GitHubLogo from '../assets/img/logos/GitHub-Mark-Light-120px-plus.png'
 import ACMLogo from '../assets/img/logos/ACMLogo.png'
@@ -29,12 +31,12 @@ export const navItems = [
 
 export const officers = [
     { 
-        name: "Ivan Yang",
+        name: "Nathan Whitacre",
         role: "President",
         startYear: "2022",
         endYear: "Present",
-        img: IvanImg,
-        description: "Ivan Yang is currently majoring Computer Science and Physics and minoring in Chemistry and Mathematics. This is his third year in SIGGD and his first year as the President. He enjoys watching lots of TV shows and movies. He doesn't spend a lot of time playing games, but he is passionate about creating games!"
+        img: NathanImg,
+        description: "Nathan is a fourth-year Purdue student majoring in Computer Science with a minor in Spanish Language and Culture. This is his fourth year in SIGGD as a gameplay designer and programmer. When he's not jotting down paper designs or coding his next project, you can find him bouldering at the Corec or practicing his Spanish at the Latino Cultural Center. Some of his favorite video games include Overwatch, The Last of Us, and Celeste."
     },
     { 
         name: "Harry Weinberger",
@@ -45,28 +47,28 @@ export const officers = [
         description: "Harry is a second-year Purdue student majoring in Business Analytics and Information Management, as well as Creative Writing. This is his second year with SIGGD. He loves watching movies, TV shows, youtube videos, and really anything that moves on a screen. He has always loved video games since playing Super Smash Bros with his brother as a kid, and hopes to one day put that interest into making games of his own as a career. Some of his favorite games include Calamity Terraria, Elden Ring, and Ori and the Will of the Wisps."
     },
     { 
-        name: "Alex Ashby",
+        name: "Jake Bromme",
         role: "Art Lead",
-        startYear: "2022",
+        startYear: "2024",
         endYear: "Present",
-        img: NoImg,
-        description: "Alex Ashby is a junior majoring in Game Development & Design with a focus on the creative side of game dev. This is their second year in SIGGD and their first year on the leadership team as the Art Lead. They've always loved both video games and the arts and aspire to be a concept artist at a major studio. They enjoy creating art and writing in their free time… oh, and of course, playing games. Their 3 favorite games are Destiny, Terraria and Death Must Die"
+        img: JakeImg,
+        description: "Jake is a sophomore double majoring in Animation & VFX and Game Development. This is his second year with SIGGD. He has a long history with both digital and traditional art, with a primary focus on illustrating fictional stories. He also loves hiking and discovering new music. His favorite games include World of Warcraft: Wrath of the Lich King, The Legend of Zelda: Breath of the Wild, and Life is Strange."
     },
     { 
-        name: "Ansh Agrawal",
+        name: "Simon Wang",
         role: "Programming Lead",
-        startYear: "2023",
+        startYear: "2024",
         endYear: "Present",
-        img: AnshImg,
-        description: "Ansh Agrawal is in their third and final year at Purdue, on track to graduate early with a major in Computer Science and minor in Mathematics. This will be his second year in SIGGD and first year as a Programming Lead. He has skills in variety of programming languages and tools. By incorporating his computer science technical ability with game development projects, he aspires to enter the gaming industry and start his own indie game studio some day."
+        img: SimonImg,
+        description: "Simon is in his second year studying Game Development. This is his first year on the leadership team. He enjoys playing games of any and all genres. He struggles to decide on a favorite game but some games from he really enjoyed from the last year has been: Deadlock, WH40K Rogue Trader, and Until Then."
     },
     { 
-        name: "Nathan Whitacre",
+        name: "Aayush Harwadekar",
         role: "Design Lead",
-        startYear: "2022",
+        startYear: "2024",
         endYear: "Present",
-        img: NathanImg,
-        description: "Nathan is a third-year Purdue student majoring in Computer Science and minoring in Spanish Language and Culture. This is his third year with SIGGD and his second year as Design Lead. When he's not jotting down paper designs or coding his next project, you can find him bouldering at the Corec or practicing his Spanish at the Latino Cultural Center. Some of his favorite video games include Overwatch, The Last of Us, and Celeste."
+        img: AayushImg,
+        description: "Aayush is a sophomore majoring in Game Dev/Design and a minor in CS. This is their 2nd year at SIGGD and the first year being on the leadership team. He always loves to play all types of games with friends, he used to play different roblox games every day with friends to truly get new and fun experiences every day. Some of his favorite games include: Pokemon, Bonk.io, and 20 minutes till dawn."
     },
     { 
         name: "Andrew Hanlon",
@@ -107,6 +109,13 @@ export const games = [
         download: "https://drive.google.com/file/d/1PBoHv1jDrXvbmjHgiilQhaYf5E64lKeh/view?usp=sharing",
         github: "https://github.com/PurdueSIGGD/Plunder-the-Sea",
     },
+    {
+        name: "Echoes of Isovios: A Legacy Undone",
+        img: EchoesLegacyGameImg,
+        description: "In a world devastated by the result of your wrong-doings, find redemption by helping the people you once harmed in this action-packed rogue-lite RPG. Tackle brutal enemies and bosses with as many as 7 character kits, and exeperience each character's unique story as you regain their trust! Fully voice acted!",
+        download: "https://siggd.itch.io/siggd-game-2024-2025",
+        github: "https://github.com/PurdueSIGGD/SIGGD-Game-2024"
+    }
 ]
 
 export const footerIcons = [
