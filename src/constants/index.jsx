@@ -33,6 +33,7 @@ export const officers = [
         startYear: "2024",
         endYear: "Present",
         img: SimonImg,
+        imgPosition: "50% 40%",
         description: "Simon is in his third year studying Game Development. He is primarily a programmer but he also greatly enjoys ranting about game designs. He struggles to decide on a favorite game but some games he really enjoyed in the last year has been: Overwatch, WH40K Rogue Trader, and Slay the Spire 2."
     },
     { 
@@ -41,6 +42,7 @@ export const officers = [
         startYear: "2024",
         endYear: "Present",
         img: HarryImg,
+        imgPosition: "50% 20%",
         description: "Harry is a third-year Purdue student majoring in Business Analytics and Information Management, as well as Creative Writing. This is his third year with SIGGD. He loves watching movies, TV shows, youtube videos, and really anything that moves on a screen. He has always loved video games since playing Super Smash Bros with his brother as a kid, and hopes to one day put that interest into making games of his own as a career. Some of his favorite games include Calamity Terraria, Elden Ring, and Ori and the Will of the Wisps."
     },
     { 
@@ -49,6 +51,7 @@ export const officers = [
         startYear: "2024",
         endYear: "Present",
         img: JakeImg,
+        imgPosition: "50% 15%",
         description: "Jake is a sophomore double majoring in Animation & VFX and Game Development. This is his second year with SIGGD. He has a long history with both digital and traditional art, with a primary focus on illustrating fictional stories. He also loves hiking and discovering new music. His favorite games include World of Warcraft: Wrath of the Lich King, The Legend of Zelda: Breath of the Wild, and Life is Strange."
     },
     { 
@@ -57,6 +60,7 @@ export const officers = [
         startYear: "2025",
         endYear: "Present",
         img: BlankImg,
+        imgPosition: "50% 50%",
         description: "Pranav is a second-year Purdue student studying Computer Science with a minor in Mathematics and Economics. This is his second year in SIGGD, and he has over 6 years of experience making games. When he's not developing his own games, you can find him cosplaying or composing music in his spare time. He is a big JRPG fan, with some of his favorites including Xenoblade Chronicles 3, Yakuza 0, and Metaphor: Refantazio."
     },
     { 
@@ -65,6 +69,7 @@ export const officers = [
         startYear: "2024",
         endYear: "Present",
         img: JasenImg,
+        imgPosition: "35% 25%",
         description: "Jasen is a senior double majoring in Game Development and Web Development at the Polytechnic. This is his third year part of SIGGD and his first on the lead team. Games like Mario Maker inspired a deep love of game design and ever since he's enjoyed designing and programming games. Some of his favorite games include Deltarune, UFO 50, and Spark the Electric Jester"
     },
     { 
@@ -73,6 +78,7 @@ export const officers = [
         startYear: "2025",
         endYear: "Present",
         img: BlankImg,
+        imgPosition: "50% 50%",
         description: ""
     },
 ]

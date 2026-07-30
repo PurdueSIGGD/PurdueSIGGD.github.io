@@ -26,7 +26,11 @@ const OfficerCard = (props) => {
           <div className='bg-red-600 w-full p-5 flex flex-col rounded-t-lg'>
               <p className='text-3xl'> {props.officer.name} </p>
               <p className='text-xl italic'> {props.officer.role} </p>
-              <img className='object-cover rounded-full w-40 h-40 self-center border-4 border-white' src={props.officer.img} />
+              <img
+                className='object-cover rounded-full w-40 h-40 self-center border-4 border-white'
+                style={{ objectPosition: props.officer.imgPosition ?? '50% 50%' }}
+                src={props.officer.img}
+              />
           </div>
           
           <div className='leading-tight bg-black p-5 rounded-b-lg w-full h-full'> 
