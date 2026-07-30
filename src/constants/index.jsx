@@ -1,12 +1,8 @@
-import BlankImg from '../assets/img/people/blank.jpg'
+import BlankImg from '../assets/img/people/blank.png'
 import JasenImg from '../assets/img/people/Jasen.jpg'
-import AndrewImg from '../assets/img/people/Andrew.jpg'
 import SimonImg  from '../assets/img/people/Simon.png'
-import NathanImg from '../assets/img/people/Nathan.jpg'
 import HarryImg from '../assets/img/people/Harry.jpg'
 import JakeImg from '..//assets/img/people/Jake.png'
-
-import NoImg from '../assets/img/people/no-image.webp'
 
 import VyronovGameImg from '../assets/img/siggdgames/TheVyronovEffect.png'
 import SightVinesGameImg from '../assets/img/siggdgames/SightVines.png'
@@ -60,7 +56,7 @@ export const officers = [
         role: "Programming Lead",
         startYear: "2025",
         endYear: "Present",
-        img: blankImg,
+        img: BlankImg,
         description: "Pranav is a second-year Purdue student studying Computer Science with a minor in Mathematics and Economics. This is his second year in SIGGD, and he has over 6 years of experience making games. When he's not developing his own games, you can find him cosplaying or composing music in his spare time. He is a big JRPG fan, with some of his favorites including Xenoblade Chronicles 3, Yakuza 0, and Metaphor: Refantazio."
     },
     { 
@@ -76,7 +72,7 @@ export const officers = [
         role: "Audio Lead",
         startYear: "2025",
         endYear: "Present",
-        img: blankImg,
+        img: BlankImg,
         description: ""
     },
 ]
