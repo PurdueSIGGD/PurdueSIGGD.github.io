@@ -79,7 +79,7 @@ export const officers = [
         endYear: "Present",
         img: BlankImg,
         imgPosition: "50% 50%",
-        description: ""
+        description: "I'm Bode. I am a sophomore CS student whose been doing game development for 7 years. Last year, I was apart of SIGGD's programming team during my freshmen year."
     },
 ]
 
